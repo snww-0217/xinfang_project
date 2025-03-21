@@ -1,0 +1,93 @@
+/* 背景样式 */
+.question-list-bg {
+    background-color: #f8f9fa;
+}
+
+/* 标题样式 */
+h1 {
+    font-size: 2rem;
+    color: #007bff;
+}
+
+/* "去提问" 按钮样式 */
+button {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #28a745;
+}
+
+/* 问题项的卡片样式 */
+.question-item {
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* 问题内容 */
+p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* 回答卡片样式 */
+.answer {
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+/* "回答" 按钮 */
+a.btn-primary {
+    font-size: 1.1rem;
+    padding: 8px 15px;
+    border-radius: 25px;
+}
+
+/* 提示消息样式 */
+.alert {
+    font-size: 1rem;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* 问题列表的间距 */
+ul {
+    padding-left: 0;
+}
+
+/* 每个回答的背景颜色 */
+.answer {
+    background-color: #f9f9f9;
+}
+
+/* 提示信息 */
+.alert-warning {
+    background-color: #fff3cd;
+    color: #856404;
+    border: 1px solid #ffeeba;
+}
+
+/* 问题标题和时间 */
+.question-item .d-flex {
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* 时间显示样式 */
+.text-muted {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+/* "去提问" 按钮的居中对齐 */
+.text-center {
+    text-align: center;
+}

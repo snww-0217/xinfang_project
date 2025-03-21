@@ -1,0 +1,64 @@
+version: '3.9'
+services:
+  db:
+    image: mysql:8.0.36
+    container_name: xinfang_db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: "12345678"
+      MYSQL_DATABASE: "xinfang"
+    ports:
+      - "3306:3306"
+    volumes:
+      - db_data:/var/lib/mysql  # 持久化存储 MySQL 数据
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 5s
+      timeout: 10s
+      retries: 10
+    networks:
+      - xinfang_network
+
+  redis:
+    image: redis:latest
+    container_name: xinfang_redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - /root/redis.conf:/etc/redis/redis.conf
+    command: ["redis-server", "/etc/redis/redis.conf"]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 10s
+      retries: 10
+    networks:
+      - xinfang_network
+
+  web:
+    image: xinfang_project-web:latest  # 你的 Django 项目镜像
+    container_name: xinfang_web
+    dns:
+      - 114.114.114.114
+      - 223.5.5.5
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"  # 外部访问 Django
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    environment:
+      DJANGO_ENV: "production"  # 根据需求添加环境变量
+    networks:
+      - xinfang_network
+
+volumes:
+  db_data:
+    driver: local
+
+networks:
+  xinfang_network:
+    driver: bridge

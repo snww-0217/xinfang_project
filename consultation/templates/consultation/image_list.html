@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图片列表</title>
+    <style>
+        /* 全局样式 */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #444;
+        }
+
+        /* 图片容器样式 */
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .image-item {
+            background: linear-gradient(135deg, #f5f7fa, #c3cfe2); /* 渐变色背景 */
+            border: 10px solid #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            width: 300px;
+            overflow: hidden;
+            cursor: pointer; /* 鼠标悬停时显示手型 */
+        }
+
+        .image-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .image-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 5px;
+        }
+
+        .image-item h3 {
+            text-align: center;
+            font-size: 1.2em;
+            margin: 10px 0;
+            color: #555;
+        }
+
+        /* 分页样式 */
+        .pagination {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        .pagination a {
+            color: #007bff;
+            padding: 8px 16px;
+            text-decoration: none;
+            border: 1px solid #ddd;
+            margin: 0 4px;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        .pagination a:hover {
+            background-color: #f1f1f1;
+        }
+
+        .pagination a.active {
+            background-color: #007bff;
+            color: white;
+            border: 1px solid #007bff;
+        }
+
+        /* 无图片提示 */
+        .no-images {
+            text-align: center;
+            font-size: 1.2em;
+            color: #777;
+            margin-top: 20px;
+        }
+
+        /* 模态框样式 */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .modal img {
+            max-width: 90%;
+            max-height: 90%;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        .modal.active {
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <h1>已上传的图片</h1>
+
+    {% if images %}
+        <div class="image-container">
+            {% for image in images %}
+                <div class="image-item" onclick="openModal('{{ image.image.url }}')">
+                    <h3>上传时间: {{ image.uploaded_at }}</h3>
+                    <img src="{{ image.image.url }}" alt="Uploaded Image">
+                </div>
+            {% endfor %}
+        </div>
+
+        <!-- 分页 -->
+        <div class="pagination">
+            {% if images.has_previous %}
+                <a href="?page=1">&laquo; 第一页</a>
+                <a href="?page={{ images.previous_page_number }}">上一页</a>
+            {% endif %}
+
+            <span class="active">
+                第 {{ images.number }} 页 / 共 {{ images.paginator.num_pages }} 页
+            </span>
+
+            {% if images.has_next %}
+                <a href="?page={{ images.next_page_number }}">下一页</a>
+                <a href="?page={{ images.paginator.num_pages }}">最后一页 &raquo;</a>
+            {% endif %}
+        </div>
+    {% else %}
+        <p class="no-images">暂无图片。</p>
+    {% endif %}
+
+    <!-- 模态框 -->
+    <div class="modal" id="imageModal" onclick="closeModal()">
+        <img id="modalImage" src="" alt="放大图片">
+    </div>
+
+    <script>
+        // 打开模态框
+        function openModal(imageUrl) {
+            const modal = document.getElementById('imageModal');
+            const modalImage = document.getElementById('modalImage');
+            modalImage.src = imageUrl;
+            modal.classList.add('active');
+        }
+
+        // 关闭模态框
+        function closeModal() {
+            const modal = document.getElementById('imageModal');
+            modal.classList.remove('active');
+        }
+    </script>
+</body>
+</html>
