@@ -9,13 +9,13 @@ echo "部署版本号：$VERSION"
 git pull origin develop
 
 # 停止旧容器
-docker-compose down
+docker compose down
 
 # 重新构建镜像，传递版本号
-docker-compose build --build-arg WEB_VERSION=$VERSION
+docker compose build web --build-arg WEB_VERSION=$VERSION
 
 # 启动新容器，传递版本号
-WEB_VERSION=$VERSION docker-compose up -d
+WEB_VERSION=$VERSION docker compose up -d
 
 # 等待 web 容器健康（最多 30 秒）
 echo "等待 web 容器启动..."
