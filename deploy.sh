@@ -4,7 +4,7 @@ set -e
 # 获取版本号，默认用 latest
 VERSION=${1:-latest}
 echo "部署版本号：$VERSION"
-
+print('加载版本号')
 # 拉取最新代码
 git pull origin develop
 
@@ -12,7 +12,7 @@ git pull origin develop
 docker compose down
 
 # 重新构建镜像，传递版本号
-docker compose build web --build-arg WEB_VERSION=$VERSION
+docker compose build --no-cache --build-arg WEB_VERSION=$VERSION web
 
 # 启动新容器，传递版本号
 WEB_VERSION=$VERSION docker compose up -d

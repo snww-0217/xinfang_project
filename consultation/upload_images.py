@@ -10,13 +10,15 @@ from django.core.paginator import Paginator
 ANSWER_CORRECT = settings.ANSWER_CORRECT
 MAX_TRIES = getattr(settings, 'MAX_TRIES', 3)
 from .redis_client import redis_client
+from django.views.decorators.csrf import csrf_exempt
+from django.contrib.auth.decorators import login_required
 
 
-
+@login_required
 def index(request):
     return render(request, 'consultation/upload_form.html')
 
-
+@login_required
 def verify_answer(request):
     user_id = request.session.session_key
     if not user_id:
@@ -54,7 +56,7 @@ def verify_answer(request):
     redis_client.set(f'answer_tries:{user_id}', 0)
     return JsonResponse({"status": "success"}, status=200)
 
-
+@login_required
 def upload_image(request):
     user_id = request.session.session_key
     if not user_id:
@@ -89,43 +91,7 @@ def upload_image(request):
     return JsonResponse({"error": "未选择文件"}, status=400)
 
 
-
-# 上传多张图片
-#def upload_image(request):
-#    user_id = request.session.session_key
-#    if not user_id:
-#        request.session.create()
-#
-#    # 检查用户是否被禁用
-#    banned_until = redis_client.get(f'banned_until:{user_id}')
-#    if banned_until and time.time() < float(banned_until):
-#        return JsonResponse({"error": "您已被禁止上传，10分钟后再试"}, status=403)
-#
-#    if request.method == 'POST' and request.FILES.getlist('files'):
-#        files = request.FILES.getlist('files')
-#        uploaded_urls = []
-#
-#        for file in files:
-#            # 检查文件大小
-#            if file.size > settings.DATA_UPLOAD_MAX_MEMORY_SIZE:
-#                return JsonResponse({"error": f"文件 {file.name} 过大，无法上传"}, status=400)
-#
-#            # 将文件保存到模型中
-#            image_upload = ImageUpload(image=file)
-#            image_upload.save()
-#
-#            # 获取保存后的文件 URL
-#            uploaded_urls.append(image_upload.image.url)
-#
-#        # 返回成功响应，并指示跳转路径
-#        return JsonResponse({
-#            "message": "上传成功",
-#            "file_urls": uploaded_urls,
-#            "redirect_url": "/consultation/images/"
-#        })
-#
-#    return JsonResponse({"error": "未选择文件"}, status=400)
-#
+@login_required
 def image_list(request):
     images = ImageUpload.objects.all().order_by('-uploaded_at')
     paginator = Paginator(images, 10)  # 每页显示 10 张图片
@@ -134,7 +100,9 @@ def image_list(request):
     return render(request, 'consultation/image_list.html', {'images': page_obj})
 
 
-def delete_image(request, image_id):
-    image = get_object_or_404(ImageUpload, id=image_id)
-    image.delete()
-    return render(request, 'consultation/image_list.html')
+
+
+
+
+
+

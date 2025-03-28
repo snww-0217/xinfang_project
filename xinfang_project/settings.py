@@ -162,6 +162,8 @@ STATICFILES_DIRS = [
     BASE_DIR / "static/",  # 确保这里指向了正确的文件夹
 ]
 
+LOGIN_URL = '/consultation/login/'  # 这里要改成你的实际登录路径
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 

@@ -16,6 +16,5 @@ urlpatterns = [
     path('verify/', upload_images.verify_answer, name='verify_answer'),
     path('upload/', upload_images.upload_image, name='upload_image'),
     path('images/', upload_images.image_list, name='image_list'),
-    path('images/delete/<int:image_id>/', upload_images.delete_image, name='delete_image'),
 
 ]

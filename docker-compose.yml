@@ -1,7 +1,7 @@
-version: '3.9'
+
 services:
   db:
-    image: mysql:8.0.36
+    image: mysql:8
     container_name: xinfang_db
     restart: always
     environment:
@@ -36,7 +36,7 @@ services:
       - xinfang_network
 
   web:
-    image: xinfang_project-web:latest  # 你的 Django 项目镜像
+    image: xinfang_project-web:v1.0  # 你的 Django 项目镜像
     container_name: xinfang_web
     dns:
       - 114.114.114.114
