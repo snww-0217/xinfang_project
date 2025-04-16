@@ -35,8 +35,18 @@ services:
     networks:
       - xinfang_network
 
+  python-base:
+    image: python:3.9-slim  # 你的本地 Python 3.9 镜像
+    container_name: xinfang_python_base
+    command: ["sleep", "infinity"]  # 让容器保持运行，不退出
+    networks:
+      - xinfang_network
+
   web:
-    image: xinfang_project-web:v1.0  # 你的 Django 项目镜像
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: xinfang_project-web:v1.0
     container_name: xinfang_web
     dns:
       - 114.114.114.114

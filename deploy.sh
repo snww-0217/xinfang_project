@@ -4,18 +4,17 @@ set -e
 # 获取版本号，默认用 latest
 VERSION=${1:-latest}
 echo "部署版本号：$VERSION"
-print('加载版本号')
 # 拉取最新代码
 git pull origin develop
 
 # 停止旧容器
-docker compose down
+docker compose stop web
 
 # 重新构建镜像，传递版本号
-docker compose build --no-cache --build-arg WEB_VERSION=$VERSION web
+docker compose build --build-arg WEB_VERSION=$VERSION web
 
 # 启动新容器，传递版本号
-WEB_VERSION=$VERSION docker compose up -d
+WEB_VERSION=$VERSION docker compose up -d --force-recreate web
 
 # 等待 web 容器健康（最多 30 秒）
 echo "等待 web 容器启动..."

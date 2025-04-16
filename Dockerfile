@@ -1,6 +1,4 @@
-# 使用官方 Python 3.9 作为基础镜像
 FROM python:3.9-slim
-
 # 更新包列表并安装 curl 和 netcat 工具
 RUN apt-get update && apt-get install -y \
     curl \

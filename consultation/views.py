@@ -5,7 +5,8 @@ from django.contrib.auth.decorators import login_required
 from .models import Question, Answer
 from .forms import QuestionForm, AnswerForm
 from django.contrib.auth.models import User 
-
+import random
+from django.http import JsonResponse
 
 
 # 用户注册视图
@@ -33,7 +34,7 @@ def user_login(request):
 
         if user is not None:
             login(request, user)
-            return redirect('question_list')
+            return redirect('dashboard')
         else:
             # 检查用户名是否存在
             try:
@@ -106,8 +107,35 @@ def delete_question(request, question_id):
     else:
         return redirect('question_list')  
     
+@login_required
+def dashboard(request):
+    return render(request, 'consultation/dashboard.html')
 
 
 
 
+def deal_cards(request):
+    suits = ['♠', '♥', '♣', '♦']
+    ranks = ['3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A', '2']
+    deck = [f"{suit}{rank}" for rank in ranks for suit in suits]
+    deck += ['小王', '大王']
 
+    random.shuffle(deck)
+
+    player1 = deck[:17]
+    player2 = deck[17:34]
+    player3 = deck[34:51]
+    bottom = deck[51:]
+
+    return JsonResponse({
+        'player1': player1,
+        'player2': player2,
+        'player3': player3,
+        'bottom': bottom,
+    })
+
+
+
+
+def game_page(request):
+    return render(request, 'consultation/ddz_game.html')

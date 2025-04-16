@@ -94,15 +94,88 @@ def upload_image(request):
 @login_required
 def image_list(request):
     images = ImageUpload.objects.all().order_by('-uploaded_at')
-    paginator = Paginator(images, 10)  # 每页显示 10 张图片
+    user_agent = request.META.get('HTTP_USER_AGENT', '').lower()
+    items_per_page = 5
+    if 'mobile' in user_agent:
+        items_per_page = 2
+    paginator = Paginator(images, items_per_page)  # 每页显示 10 张图片
     page_number = request.GET.get('page')
     page_obj = paginator.get_page(page_number)
     return render(request, 'consultation/image_list.html', {'images': page_obj})
 
 
+@login_required
+def upload_images(request):
+    user_id = request.session.session_key
+    if not user_id:
+        request.session.create()
+
+    banned_until = redis_client.get(f'banned_until:{user_id}')
+    if banned_until and time.time() < float(banned_until):
+        return JsonResponse({"error": "您已被禁止上传，10分钟后再试"}, status=403)
+    
+    if request.method == 'POST' and request.FILES.getlist('files'):
+        files = request.FILES.getlist('files')
+        
+        if len(files) > 3:
+            return JsonResponse({"error": "一次最多上传 3 张图片"}, status=400)
+        
+        file_urls = []
+        for file in files:
+            if file.size > settings.DATA_UPLOAD_MAX_MEMORY_SIZE:
+                return JsonResponse({"error": f"文件 {file.name} 过大，无法上传"}, status=400)
+            
+            # ✅ 添加 user=request.user
+            image_upload = ImageUpload(image=file, user=request.user)
+            image_upload.save()
+            file_urls.append(image_upload.image.url)
+        
+        return JsonResponse({
+            "message": "上传成功",
+            "file_urls": file_urls,
+            "redirect_url": "/consultation/images/"
+        })
+    
+    return JsonResponse({"error": "未选择文件"}, status=400)
+@login_required
+def upload_page(request):
+    """ 渲染前端页面 """
+    return render(request, 'consultation/upload_forms.html')
 
 
+@login_required
+def delete_image(request, image_id):
+    if request.method == 'POST':
+        try:
+            # 获取图片对象
+            image = ImageUpload.objects.get(id=image_id)
 
+            # 调试信息
+            print(f"Image user: {image.user.username}, Request user: {request.user.username}")
 
+            # 检查当前用户是否有权限删除图片
+            if request.user.is_superuser or image.user == request.user:
+                image_path = os.path.join(settings.MEDIA_ROOT, str(image.image))
 
+                # 如果图片文件存在，删除文件
+                if os.path.exists(image_path):
+                    os.remove(image_path)
+
+                # 删除数据库中的记录
+                image.delete()
+                return JsonResponse({"message": "图片删除成功"})
+
+            else:
+                # 如果不是上传者或超级管理员，返回权限不足
+                return JsonResponse({"error": "权限不足"}, status=403)
+
+        except ImageUpload.DoesNotExist:
+            # 如果图片不存在，返回错误
+            return JsonResponse({"error": "图片不存在"}, status=404)
+
+        except Exception as e:
+            # 其他错误情况，返回错误信息
+            return JsonResponse({"error": f"删除操作失败: {str(e)}"}, status=500)
+
+    return JsonResponse({"error": "无效请求"}, status=400)
 
