@@ -1,0 +1,47 @@
+/* 背景渐变 */
+.bg-gradient {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    height: 100vh;
+    margin: 0;
+}
+
+/* 卡片样式 */
+.card {
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+/* 标题样式 */
+h2 {
+    font-size: 2rem;
+    color: #6a11cb;
+}
+
+/* 错误信息样式 */
+.alert {
+    font-size: 1rem;
+}
+
+/* 按钮样式 */
+.btn-gradient {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 15px;
+    border-radius: 30px;
+    transition: background 0.3s ease;
+}
+
+.btn-gradient:hover {
+    background: linear-gradient(135deg, #2575fc, #6a11cb);
+}
+
+/* 链接样式 */
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

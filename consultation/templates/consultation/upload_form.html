@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    {% load static %}  <!-- 加载 static 标签库 -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>上传您的美照或帅照</title>  <!-- 设置初始标题 -->
+    <style>
+        /* 全局样式 */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+            color: #fff;
+        }
+
+        /* 背景动画 */
+        @keyframes gradientBackground {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        body {
+            background: linear-gradient(135deg, #6a11cb, #2575fc, #6a11cb);
+            background-size: 400% 400%;
+            animation: gradientBackground 15s ease infinite;
+        }
+
+        /* 表单容器 */
+        .form-container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px 50px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+            width: 100%;
+            max-width: 500px;
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .form-container:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        /* 标题 */
+        h3 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            color: #fff; /* 确保标题颜色可见 */
+        }
+
+        /* 输入框 */
+        .form-container input[type="text"],
+        .form-container input[type="file"] {
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            background: rgba(255, 255, 255, 0.1);
+            color: #fff;
+            font-size: 16px;
+            transition: border-color 0.3s ease, background 0.3s ease;
+        }
+
+        .form-container input[type="text"]::placeholder,
+        .form-container input[type="file"]::placeholder {
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        .form-container input[type="text"]:focus,
+        .form-container input[type="file"]:focus {
+            border-color: #ff6f61;
+            background: rgba(255, 255, 255, 0.2);
+            outline: none;
+        }
+
+        /* 按钮 */
+        .form-container button {
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(135deg, #ff6f61, #ff3b3b);
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: transform 0.3s ease, background 0.3s ease;
+        }
+
+        .form-container button:hover {
+            background: linear-gradient(135deg, #ff3b3b, #ff6f61);
+            transform: translateY(-3px);
+        }
+
+        .form-container button:active {
+            transform: translateY(0);
+        }
+
+        /* 提示信息 */
+        .alert {
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 500;
+            opacity: 0;
+            animation: fadeIn 0.5s forwards;
+        }
+
+        .alert.success {
+            background: rgba(76, 175, 80, 0.8);
+        }
+
+        .alert.error {
+            background: rgba(244, 67, 54, 0.8);
+        }
+
+        /* 图片提示 */
+        .alert img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+
+        /* 上传区域 */
+        #uploadSection {
+            display: none;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        #uploadSection input[type="file"] {
+            padding: 15px;
+        }
+
+        /* 动画效果 */
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideUp {
+            from {
+                transform: translateY(50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .form-container .success-message {
+            animation: slideUp 0.8s ease-out;
+        }
+    </style>
+    <script>
+        // 在 JavaScript 中定义静态文件路径
+        const imagePaths = {
+            "success_1.png": "{% static 'images/success_1.png' %}",
+            "success_2.png": "{% static 'images/success_2.png' %}",
+            "success_3.png": "{% static 'images/success_3.png' %}",
+        };
+    </script>
+</head>
+
+<body>
+    <div class="form-container">
+        <h3>上传您的美照或帅照</h3>  <!-- 使用 h3 标签 -->
+        <form id="answerForm" method="post">
+            {% csrf_token %}
+            <label for="answer">西八，又来传你认为的美照或帅照了？</label>
+            <input type="text" id="answer" name="answer" required placeholder="请输入你的答案">
+            <button type="submit">提交</button>
+        </form>
+
+        <div id="uploadSection">
+            <form id="uploadForm" action="/consultation/upload/" method="POST" enctype="multipart/form-data">
+                {% csrf_token %}
+                <label for="file"></label>
+                <input type="file" name="file" accept="image/*" required>
+                <button type="submit">上传</button>
+            </form>
+        </div>
+
+        <div id="alertContainer"></div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // 初始化标题
+            const initialTitle = "上传您的美照或帅照";
+            document.title = initialTitle; // 设置初始标题
+            document.querySelector('h3').textContent = initialTitle; // 同步到页面内容
+
+            // 跑马灯效果
+            function marqueeTitle() {
+                const title = document.title; // 获取当前标题
+                if (title.length > 0) { // 确保标题不为空
+                    let firstChar = title[0]; // 获取第一个字符
+                    let restChars = title.slice(1); // 获取剩余字符
+                    document.title = restChars + firstChar; // 更新标题
+
+                    // 同步到页面内容
+                    document.querySelector('h3').textContent = restChars + firstChar;
+                }
+
+                // 如果跑完一句话，暂停 2 秒再继续
+                if (document.title === initialTitle) {
+                    clearInterval(intervalId); // 停止当前的跑马灯
+                    setTimeout(() => {
+                        intervalId = setInterval(marqueeTitle, 500); // 重新启动跑马灯
+                    }, 2000); // 暂停 2 秒
+                }
+            }
+
+            // 启动跑马灯
+            let intervalId = setInterval(marqueeTitle, 200);
+
+            const answerForm = document.getElementById("answerForm");
+            const uploadSection = document.getElementById("uploadSection");
+            const alertContainer = document.getElementById("alertContainer");
+            const answerInput = document.getElementById("answer");
+
+            let remainingAttempts = 3; // 剩余尝试次数
+
+            answerForm.addEventListener("submit", function (e) {
+                e.preventDefault();
+
+                const answer = answerInput.value;
+                const csrfTokenElement = document.querySelector('[name="csrfmiddlewaretoken"]');
+                const csrfToken = csrfTokenElement ? csrfTokenElement.value : '';
+
+                if (!csrfToken) {
+                    alert("CSRF token 未找到，请刷新页面重试！");
+                    return;
+                }
+
+                fetch('/consultation/verify/', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded',
+                        'X-CSRFToken': csrfToken
+                    },
+                    body: new URLSearchParams({ 'answer': answer })
+                })
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.status === "success") {
+                            // 答案正确
+                            showImageAlert("success_1.png", 'success'); // 显示第一张图片
+                            answerInput.parentElement.style.display = 'none';  // 隐藏答案框
+
+                            setTimeout(() => {
+                                showImageAlert("success_2.png", 'success'); // 显示第二张图片
+                            }, 2800); // 3秒后显示第二张图片
+
+                            setTimeout(() => {
+                                showImageAlert("success_3.png", 'success'); // 显示第三张图片
+                                uploadSection.style.display = "block"; // 显示上传表单
+                            }, 5300); // 6秒后显示第三张图片并显示上传表单
+                        } else if (data.status === "error") {
+                            // 答案错误
+                            remainingAttempts = data.remaining_attempts; // 更新剩余尝试次数
+                            showAlert(`答案错误，稍等刷新，剩余尝试次数：${remainingAttempts}`, 'error');
+                            resetForm(); // 重置表单到初始状态
+                            setTimeout(() => {
+                                window.location.reload();
+                            }, 2000); // 2秒后刷新页面
+                        } else if (data.status === "banned") {
+                            // 用户被禁用
+                            const bannedUntil = new Date(data.banned_until * 1000).toLocaleString();
+                            showAlert(`您已被禁止上传，解禁时间：${bannedUntil}`, 'error');
+                            setTimeout(() => {
+                                window.location.reload();
+                            }, 3000); // 3秒后刷新页面
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                        showAlert('请求失败，请重试。', 'error');
+                        resetForm(); // 重置表单到初始状态
+                    });
+            });
+
+            // 上传表单提交事件
+            const uploadForm = document.getElementById("uploadForm");
+            uploadForm.addEventListener("submit", function (e) {
+                e.preventDefault();
+
+                const formData = new FormData(uploadForm);
+                const csrfTokenElement = document.querySelector('[name="csrfmiddlewaretoken"]');
+                const csrfToken = csrfTokenElement ? csrfTokenElement.value : '';
+
+                if (!csrfToken) {
+                    alert("CSRF token 未找到，请刷新页面重试！");
+                    return;
+                }
+
+                fetch('/consultation/upload/', {
+                    method: 'POST',
+                    headers: {
+                        'X-CSRFToken': csrfToken
+                    },
+                    body: formData
+                })
+                    .then(response => {
+                        console.log("响应状态码：", response.status); // 打印状态码
+                        if (!response.ok) {
+                            throw new Error("网络响应不正常");
+                        }
+                        return response.json(); // 解析 JSON 数据
+                    })
+                    .then(data => {
+                        console.log("上传响应：", data); // 打印响应数据
+                        if (data.redirect_url) {
+                            // 上传成功，跳转到图片展示页面
+                            window.location.href = data.redirect_url;
+                        } else {
+                            // 上传失败
+                            showAlert(data.message || "上传失败，请重试。", 'error');
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                        showAlert('上传失败，请重试。', 'error');
+                    });
+            });
+
+            function showAlert(message, type) {
+                const alert = document.createElement('div');
+                alert.className = 'alert ' + (type === 'error' ? 'error' : 'success');
+                alert.textContent = message;
+                alertContainer.innerHTML = '';  // 清除之前的提示
+                alertContainer.appendChild(alert);
+                window.scrollTo(0, answerInput.offsetTop); // 滚动到输入框
+            }
+
+            function showImageAlert(imageSrc, type) {
+                const alert = document.createElement('div');
+                alert.className = 'alert ' + (type === 'error' ? 'error' : 'success');
+
+                // 创建图片元素
+                const image = document.createElement('img');
+                image.src = imagePaths[imageSrc];  // 从 imagePaths 中获取图片路径
+                console.log("图片路径：", image.src);  // 打印图片路径
+                image.style.maxWidth = '100%'; // 图片最大宽度
+                image.style.borderRadius = '10px'; // 图片圆角
+                alert.appendChild(image); // 将图片添加到提示框中
+
+                alertContainer.innerHTML = '';  // 清除之前的提示
+                alertContainer.appendChild(alert);
+                window.scrollTo(0, answerInput.offsetTop); // 滚动到输入框
+            }
+
+            function resetForm() {
+                answerInput.value = ''; // 清空输入框
+                answerInput.focus(); // 聚焦到输入框
+            }
+        });
+    </script>
+</body>
+
+</html>
