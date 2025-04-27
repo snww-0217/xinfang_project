@@ -18,6 +18,8 @@ from django.contrib.auth.decorators import login_required
 def index(request):
     return render(request, 'consultation/upload_form.html')
 
+
+# 单个image
 @login_required
 def verify_answer(request):
     user_id = request.session.session_key
@@ -56,6 +58,8 @@ def verify_answer(request):
     redis_client.set(f'answer_tries:{user_id}', 0)
     return JsonResponse({"status": "success"}, status=200)
 
+
+# 多个image
 @login_required
 def upload_image(request):
     user_id = request.session.session_key
@@ -91,17 +95,7 @@ def upload_image(request):
     return JsonResponse({"error": "未选择文件"}, status=400)
 
 
-@login_required
-def image_list(request):
-    images = ImageUpload.objects.all().order_by('-uploaded_at')
-    user_agent = request.META.get('HTTP_USER_AGENT', '').lower()
-    items_per_page = 5
-    if 'mobile' in user_agent:
-        items_per_page = 2
-    paginator = Paginator(images, items_per_page)  # 每页显示 10 张图片
-    page_number = request.GET.get('page')
-    page_obj = paginator.get_page(page_number)
-    return render(request, 'consultation/image_list.html', {'images': page_obj})
+
 
 
 @login_required
@@ -137,12 +131,10 @@ def upload_images(request):
         })
     
     return JsonResponse({"error": "未选择文件"}, status=400)
-@login_required
-def upload_page(request):
-    """ 渲染前端页面 """
-    return render(request, 'consultation/upload_forms.html')
 
 
+
+# 删除image操作
 @login_required
 def delete_image(request, image_id):
     if request.method == 'POST':
@@ -166,16 +158,14 @@ def delete_image(request, image_id):
                 return JsonResponse({"message": "图片删除成功"})
 
             else:
-                # 如果不是上传者或超级管理员，返回权限不足
                 return JsonResponse({"error": "权限不足"}, status=403)
 
         except ImageUpload.DoesNotExist:
-            # 如果图片不存在，返回错误
             return JsonResponse({"error": "图片不存在"}, status=404)
 
         except Exception as e:
-            # 其他错误情况，返回错误信息
             return JsonResponse({"error": f"删除操作失败: {str(e)}"}, status=500)
 
     return JsonResponse({"error": "无效请求"}, status=400)
+
 
