@@ -1,0 +1,29 @@
+<h2 style="text-align:center;">斗地主：多人准备同步</h2>
+<div class="game-table">
+    <div class="player top">
+        <div class="avatar">👤</div>
+        <div class="name" id="topPlayer">等待玩家</div>
+    </div>
+
+    <div class="player left">
+        <div class="avatar">👤</div>
+        <div class="name" id="leftPlayer">等待玩家</div>
+    </div>
+
+    <div class="player right">
+        <div class="avatar">👤</div>
+        <div class="name" id="rightPlayer">等待玩家</div>
+    </div>
+
+    <div class="player bottom">
+        <div class="avatar">🧑</div>
+        <div class="name" id="playerUsername">你的用户名：-</div>
+        <div id="hand" class="hand-cards"></div>
+    </div>
+</div>
+
+<p style="text-align:center;">准备人数：<span id="readyCount">0</span>/3</p>
+<div style="text-align:center;">
+    <button onclick="sendReady()">点击准备</button>
+</div>
+

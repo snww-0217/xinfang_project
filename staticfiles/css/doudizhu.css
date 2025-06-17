@@ -1,0 +1,22 @@
+#game-area {
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.card-area {
+    margin-top: 20px;
+}
+
+.card {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px;
+    background: #444;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    user-select: none;
+}
+

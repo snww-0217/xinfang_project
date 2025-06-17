@@ -1,0 +1,74 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>图片列表</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- 引入静态 CSS 文件 -->
+    <link rel="stylesheet" href="{% static 'css/image_list.css' %}">
+</head>
+<body>
+
+<h1>图片列表</h1>
+
+{% if images %}
+    <ul id="image-list">
+        {% for image in images %}
+            <li id="image-{{ image.id }}">
+                <img src="{{ image.image.url }}" alt="图片" onclick="showImage('{{ image.image.url }}')">
+                <button class="delete-btn" onclick="deleteImage({{ image.id }})">✖</button>
+            </li>
+        {% endfor %}
+    </ul>
+
+    <div class="pagination">
+        {% if images.has_previous %}
+            <button onclick="changePage({{ images.previous_page_number }})">上一页</button>
+        {% endif %}
+        <span>第 {{ images.number }} 页 / 共 {{ images.paginator.num_pages }} 页</span>
+        {% if images.has_next %}
+            <button onclick="changePage({{ images.next_page_number }})">下一页</button>
+        {% endif %}
+    </div>
+{% else %}
+    <p class="no-images">没有图片</p>
+{% endif %}
+
+<!-- Modal -->
+<div id="image-modal" class="modal" style="display: none;">
+    <span class="modal-close" onclick="closeModal()">×</span>
+    <img id="modal-image" src="" alt="放大图片">
+</div>
+
+<script>
+    window.onload = function() {
+        window.showImage = function(imageUrl) {
+            const modal = document.getElementById('image-modal');
+            const modalImage = document.getElementById('modal-image');
+            modalImage.src = imageUrl;
+            modal.style.display = 'block';
+        };
+
+        window.closeModal = function() {
+            document.getElementById('image-modal').style.display = 'none';
+        };
+
+        window.deleteImage = function(imageId) {
+            if (!confirm("确认删除这张图片？")) return;
+            const li = document.getElementById(`image-${imageId}`);
+            if (li) li.remove();
+            alert("图片删除成功");
+        };
+
+        window.changePage = function(pageNumber) {
+            window.location.href = `?page=${pageNumber}`;
+        };
+    };
+</script>
+
+</body>
+</html>
+

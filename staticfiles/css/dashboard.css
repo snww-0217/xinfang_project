@@ -1,0 +1,97 @@
+/* 全局设置 */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    font-family: sans-serif;
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+/* 主容器 */
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* 左侧导航栏 */
+.sidebar {
+    width: 200px;
+    background-color: #121212;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    max-height: 100vh;
+    scrollbar-width: thin; /* Firefox 滚动条 */
+}
+
+/* Chrome/Safari 滚动条样式 */
+.sidebar::-webkit-scrollbar {
+    width: 6px;
+}
+.sidebar::-webkit-scrollbar-thumb {
+    background-color: #333;
+    border-radius: 3px;
+}
+
+/* logo 样式 */
+.logo {
+    font-size: 24px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* 菜单样式 */
+.menu li {
+    list-style: none;
+    margin: 20px 0;
+    padding: 10px;
+    cursor: pointer;
+    color: #ccc;
+    border-radius: 5px;
+    transition: background-color 0.2s ease;
+}
+
+.menu li:hover {
+    background-color: #1f1f1f;
+    color: #fff;
+}
+
+/* 右侧主内容区 */
+.main {
+    flex: 1;
+    padding: 30px;
+    overflow-y: auto;
+}
+
+/* 内容区域 */
+.section {
+    display: block;
+}
+
+/* 上传框样式 */
+.upload-box {
+    border: 2px dashed #444;
+    padding: 40px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.upload-btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* 图片预览 */
+.image-preview img {
+    max-width: 300px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+

@@ -1,0 +1,63 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="{% static 'css/doudizhu.css' %}">
+    <script defer src="{% static 'js/doudizhu.js' %}"></script>
+    <style>
+        body { margin: 0; font-family: sans-serif; background: #121212; color: white; }
+        .container { display: flex; height: 100vh; }
+        .sidebar {
+            width: 200px;
+            background: #1f1f1f;
+            padding: 20px;
+            overflow-y: auto;
+        }
+        .sidebar ul { list-style: none; padding: 0; }
+        .sidebar li {
+            padding: 10px; cursor: pointer;
+        }
+        .sidebar li:hover {
+            background-color: #333;
+        }
+        .main {
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
+        }
+        .section { display: none; }
+        .section.active { display: block; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <ul>
+                <li onclick="showSection('home')">Home</li>
+                <li onclick="showSection('upload')">Upload Image</li>
+                <li onclick="showSection('other')">Other</li>
+            </ul>
+        </div>
+        <div class="main">
+            <div id="home" class="section active">
+                {% include 'consultation/home.html' %}
+            </div>
+            <div id="upload" class="section">
+               
+            </div>
+            <div id="other" class="section">
+              
+            </div>
+        </div>
+    </div>
+    <script>
+        function showSection(sectionId) {
+            document.querySelectorAll('.section').forEach(sec => sec.classList.remove('active'));
+            document.getElementById(sectionId).classList.add('active');
+        }
+    </script>
+</body>
+</html>
+

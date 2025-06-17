@@ -1,0 +1,5 @@
+2025-03-19 10:58:16,743 - INFO - Django 日志系统启动成功！
+2025-03-19 18:58:17,124 - INFO - Django 日志系统启动成功！
+2025-03-19 18:58:17,267 - INFO - Watching for file changes with StatReloader
+2025-03-19 18:59:12,507 - INFO - IP: 1.202.162.35 - Time: 2025-03-19 18:59:12
+2025-03-19 18:59:12,529 - INFO - "GET /consultation/images/ HTTP/1.1" 200 6326
