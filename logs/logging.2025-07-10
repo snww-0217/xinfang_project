@@ -1,0 +1,936 @@
+2025-07-10 00:06:45,043 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 00:06:45
+2025-07-10 00:06:45,056 - WARNING - Not Found: /
+2025-07-10 00:18:29,755 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 00:18:29
+2025-07-10 00:18:29,764 - WARNING - Not Found: /
+2025-07-10 00:18:36,185 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 00:18:36
+2025-07-10 00:18:36,194 - WARNING - Not Found: /level/15/exec/-/sh/run/CR
+2025-07-10 00:29:36,108 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 00:29:36
+2025-07-10 00:29:36,117 - WARNING - Not Found: /
+2025-07-10 00:43:23,178 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 00:43:23
+2025-07-10 00:43:23,187 - WARNING - Not Found: /
+2025-07-10 00:45:01,791 - INFO - IP: 193.34.212.110 - Time: 2025-07-10 00:45:01
+2025-07-10 00:45:01,800 - WARNING - Not Found: /
+2025-07-10 00:52:08,651 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 00:52:08
+2025-07-10 00:52:08,672 - WARNING - Not Found: /
+2025-07-10 00:59:25,858 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 00:59:25
+2025-07-10 00:59:25,869 - WARNING - Not Found: /
+2025-07-10 01:09:19,312 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 01:09:19
+2025-07-10 01:09:19,321 - WARNING - Not Found: /
+2025-07-10 01:23:44,877 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 01:23:44
+2025-07-10 01:23:44,884 - WARNING - Not Found: /
+2025-07-10 01:42:34,962 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 01:42:34
+2025-07-10 01:42:34,970 - WARNING - Not Found: /
+2025-07-10 01:51:29,399 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 01:51:29
+2025-07-10 01:51:29,406 - WARNING - Not Found: /
+2025-07-10 01:51:32,012 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 01:51:32
+2025-07-10 01:51:32,021 - WARNING - Not Found: /
+2025-07-10 01:57:10,715 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 01:57:10
+2025-07-10 01:57:10,723 - WARNING - Not Found: /_profiler/phpinfo
+2025-07-10 02:05:51,440 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 02:05:51
+2025-07-10 02:05:51,449 - WARNING - Not Found: /
+2025-07-10 02:22:45,031 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 02:22:45
+2025-07-10 02:22:45,039 - WARNING - Not Found: /
+2025-07-10 02:33:14,795 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 02:33:14
+2025-07-10 02:33:14,806 - WARNING - Not Found: /
+2025-07-10 02:38:16,537 - INFO - IP: 8.219.163.233 - Time: 2025-07-10 02:38:16
+2025-07-10 02:38:16,545 - WARNING - Not Found: /
+2025-07-10 02:38:16,641 - INFO - IP: 8.219.163.233 - Time: 2025-07-10 02:38:16
+2025-07-10 02:38:16,650 - WARNING - Not Found: /favicon.ico
+2025-07-10 02:48:55,626 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 02:48:55
+2025-07-10 02:48:55,636 - WARNING - Not Found: /
+2025-07-10 02:48:59,209 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 02:48:59
+2025-07-10 02:48:59,217 - WARNING - Not Found: /
+2025-07-10 02:49:27,203 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 02:49:27
+2025-07-10 02:49:27,211 - WARNING - Not Found: /favicon.ico
+2025-07-10 02:50:00,557 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 02:50:00
+2025-07-10 02:50:00,566 - WARNING - Not Found: /.well-known/security.txt
+2025-07-10 03:01:13,487 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 03:01:13
+2025-07-10 03:01:13,495 - WARNING - Not Found: /
+2025-07-10 03:13:41,050 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 03:13:41
+2025-07-10 03:13:41,059 - WARNING - Not Found: /
+2025-07-10 03:18:24,606 - INFO - IP: 193.34.212.110 - Time: 2025-07-10 03:18:24
+2025-07-10 03:18:24,615 - WARNING - Not Found: /
+2025-07-10 03:18:28,278 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 03:18:28
+2025-07-10 03:18:28,286 - WARNING - Not Found: /
+2025-07-10 03:30:44,365 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 03:30:44
+2025-07-10 03:30:44,373 - WARNING - Not Found: /
+2025-07-10 03:38:03,315 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 03:38:03
+2025-07-10 03:38:03,323 - WARNING - Not Found: /
+2025-07-10 03:42:00,934 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 03:42:00
+2025-07-10 03:42:00,943 - WARNING - Not Found: /
+2025-07-10 03:57:23,479 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 03:57:23
+2025-07-10 03:57:23,487 - WARNING - Not Found: /
+2025-07-10 04:09:28,471 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 04:09:28
+2025-07-10 04:09:28,480 - WARNING - Not Found: /
+2025-07-10 04:18:07,845 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 04:18:07
+2025-07-10 04:18:07,853 - WARNING - Not Found: /
+2025-07-10 04:18:30,475 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 04:18:30
+2025-07-10 04:18:30,486 - WARNING - Not Found: /cgi-bin/mainfunction.cgi
+2025-07-10 04:24:26,491 - INFO - IP: 193.34.212.110 - Time: 2025-07-10 04:24:26
+2025-07-10 04:24:26,500 - WARNING - Not Found: /
+2025-07-10 04:26:22,317 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 04:26:22
+2025-07-10 04:26:22,327 - WARNING - Not Found: /
+2025-07-10 04:36:54,841 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 04:36:54
+2025-07-10 04:36:54,851 - WARNING - Not Found: /
+2025-07-10 04:53:18,039 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 04:53:18
+2025-07-10 04:53:18,048 - WARNING - Not Found: /
+2025-07-10 05:06:15,031 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 05:06:15
+2025-07-10 05:06:15,040 - WARNING - Not Found: /
+2025-07-10 05:06:47,932 - INFO - IP: 196.251.87.47 - Time: 2025-07-10 05:06:47
+2025-07-10 05:06:47,942 - WARNING - Not Found: /
+2025-07-10 05:14:18,592 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 05:14:18
+2025-07-10 05:14:18,601 - WARNING - Not Found: /
+2025-07-10 05:27:51,902 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 05:27:51
+2025-07-10 05:27:51,910 - WARNING - Not Found: /
+2025-07-10 05:30:20,314 - INFO - IP: 125.122.33.92 - Time: 2025-07-10 05:30:20
+2025-07-10 05:30:20,323 - WARNING - Not Found: /
+2025-07-10 05:40:52,686 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 05:40:52
+2025-07-10 05:40:52,693 - WARNING - Not Found: /
+2025-07-10 05:51:31,999 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 05:51:31
+2025-07-10 05:51:32,008 - WARNING - Not Found: /
+2025-07-10 05:54:07,288 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 05:54:07
+2025-07-10 05:54:07,296 - WARNING - Not Found: /
+2025-07-10 06:02:03,535 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 06:02:03
+2025-07-10 06:02:03,545 - WARNING - Not Found: /
+2025-07-10 06:02:35,555 - INFO - IP: 193.34.212.110 - Time: 2025-07-10 06:02:35
+2025-07-10 06:02:35,563 - WARNING - Not Found: /
+2025-07-10 06:15:12,848 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 06:15:12
+2025-07-10 06:15:12,859 - WARNING - Not Found: /
+2025-07-10 06:27:51,374 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 06:27:51
+2025-07-10 06:27:51,383 - WARNING - Not Found: /
+2025-07-10 06:34:58,367 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 06:34:58
+2025-07-10 06:34:58,376 - WARNING - Not Found: /
+2025-07-10 06:35:31,327 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 06:35:31
+2025-07-10 06:35:31,334 - WARNING - Not Found: /
+2025-07-10 06:49:00,367 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 06:49:00
+2025-07-10 06:49:00,375 - WARNING - Not Found: /
+2025-07-10 06:54:41,453 - INFO - IP: 157.245.58.97 - Time: 2025-07-10 06:54:41
+2025-07-10 06:54:41,463 - WARNING - Not Found: /
+2025-07-10 06:54:42,170 - INFO - IP: 157.245.58.97 - Time: 2025-07-10 06:54:42
+2025-07-10 06:54:42,180 - WARNING - Not Found: /login
+2025-07-10 07:00:23,281 - INFO - IP: 149.86.227.49 - Time: 2025-07-10 07:00:23
+2025-07-10 07:00:23,290 - WARNING - Not Found: /
+2025-07-10 07:06:18,315 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 07:06:18
+2025-07-10 07:06:18,324 - WARNING - Not Found: /
+2025-07-10 07:10:56,407 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 07:10:56
+2025-07-10 07:10:56,416 - WARNING - Not Found: /
+2025-07-10 07:14:05,527 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 07:14:05
+2025-07-10 07:14:05,536 - WARNING - Not Found: /.git/config
+2025-07-10 07:20:32,672 - INFO - IP: 185.205.244.227 - Time: 2025-07-10 07:20:32
+2025-07-10 07:20:32,680 - WARNING - Not Found: example.com:443
+2025-07-10 07:20:52,730 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 07:20:52
+2025-07-10 07:20:52,739 - WARNING - Not Found: /
+2025-07-10 07:23:26,344 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 07:23:26
+2025-07-10 07:23:26,352 - WARNING - Not Found: /
+2025-07-10 07:26:23,313 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 07:26:23
+2025-07-10 07:26:23,321 - WARNING - Not Found: /
+2025-07-10 07:28:57,400 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 07:28:57
+2025-07-10 07:28:57,409 - WARNING - Not Found: /
+2025-07-10 07:48:16,114 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 07:48:16
+2025-07-10 07:48:16,122 - WARNING - Not Found: /
+2025-07-10 07:53:36,899 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 07:53:36
+2025-07-10 07:53:36,907 - WARNING - Not Found: /
+2025-07-10 07:59:41,741 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 07:59:41
+2025-07-10 07:59:41,750 - WARNING - Not Found: /
+2025-07-10 08:03:12,550 - INFO - IP: 193.34.212.110 - Time: 2025-07-10 08:03:12
+2025-07-10 08:03:12,558 - WARNING - Not Found: /
+2025-07-10 08:15:01,460 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 08:15:01
+2025-07-10 08:15:01,468 - WARNING - Not Found: /
+2025-07-10 08:15:34,014 - INFO - IP: 149.86.227.49 - Time: 2025-07-10 08:15:34
+2025-07-10 08:15:34,022 - WARNING - Not Found: /
+2025-07-10 08:28:58,861 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 08:28:58
+2025-07-10 08:28:58,870 - WARNING - Not Found: /
+2025-07-10 08:36:40,702 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 08:36:40
+2025-07-10 08:36:40,711 - WARNING - Not Found: /
+2025-07-10 08:37:54,416 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 08:37:54
+2025-07-10 08:37:54,425 - WARNING - Not Found: /
+2025-07-10 08:55:11,715 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 08:55:11
+2025-07-10 08:55:11,724 - WARNING - Not Found: /
+2025-07-10 08:56:56,077 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 08:56:56
+2025-07-10 08:56:56,086 - WARNING - Not Found: /
+2025-07-10 08:58:37,925 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 08:58:37
+2025-07-10 08:58:37,935 - WARNING - Not Found: /webui/
+2025-07-10 09:00:04,132 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 09:00:04
+2025-07-10 09:00:04,141 - WARNING - Not Found: /favicon.ico
+2025-07-10 09:00:57,380 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 09:00:57
+2025-07-10 09:00:57,388 - WARNING - Not Found: /geoserver/web/
+2025-07-10 09:04:19,807 - INFO - IP: 218.75.38.211 - Time: 2025-07-10 09:04:19
+2025-07-10 09:04:19,816 - WARNING - Not Found: www.baidu.com:443
+2025-07-10 09:05:13,376 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 09:05:13
+2025-07-10 09:05:13,385 - WARNING - Not Found: /
+2025-07-10 09:05:40,832 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 09:05:40
+2025-07-10 09:05:40,841 - WARNING - Not Found: /
+2025-07-10 09:14:08,801 - INFO - IP: 198.235.24.231 - Time: 2025-07-10 09:14:08
+2025-07-10 09:14:08,811 - WARNING - Not Found: /
+2025-07-10 09:17:34,198 - INFO - IP: 193.34.212.110 - Time: 2025-07-10 09:17:34
+2025-07-10 09:17:34,206 - WARNING - Not Found: /
+2025-07-10 09:18:41,488 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 09:18:41
+2025-07-10 09:18:41,496 - WARNING - Not Found: /
+2025-07-10 09:32:58,262 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 09:32:58
+2025-07-10 09:32:58,271 - WARNING - Not Found: /
+2025-07-10 09:36:41,268 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 09:36:41
+2025-07-10 09:36:41,277 - WARNING - Not Found: /
+2025-07-10 09:36:41,686 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 09:36:41
+2025-07-10 09:36:41,696 - WARNING - Not Found: /favicon.ico
+2025-07-10 09:51:13,842 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 09:51:13
+2025-07-10 09:51:13,855 - WARNING - Not Found: /
+2025-07-10 09:52:19,033 - INFO - IP: 149.86.227.49 - Time: 2025-07-10 09:52:19
+2025-07-10 09:52:19,043 - WARNING - Not Found: /
+2025-07-10 09:54:41,556 - INFO - IP: 196.251.87.47 - Time: 2025-07-10 09:54:41
+2025-07-10 09:54:41,567 - WARNING - Not Found: /
+2025-07-10 10:04:32,107 - INFO - IP: 196.251.87.47 - Time: 2025-07-10 10:04:32
+2025-07-10 10:04:32,116 - WARNING - Not Found: /
+2025-07-10 10:04:41,221 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 10:04:41
+2025-07-10 10:04:41,230 - WARNING - Not Found: /
+2025-07-10 10:05:27,418 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 10:05:27
+2025-07-10 10:05:27,427 - WARNING - Not Found: /
+2025-07-10 10:07:48,156 - INFO - IP: 148.153.56.62 - Time: 2025-07-10 10:07:48
+2025-07-10 10:07:48,165 - WARNING - Not Found: /bHNd
+2025-07-10 10:07:48,520 - INFO - IP: 148.153.56.62 - Time: 2025-07-10 10:07:48
+2025-07-10 10:07:48,529 - WARNING - Not Found: /2Tin
+2025-07-10 10:07:49,782 - INFO - IP: 148.153.56.62 - Time: 2025-07-10 10:07:49
+2025-07-10 10:07:49,791 - WARNING - Not Found: /aab8
+2025-07-10 10:07:51,050 - INFO - IP: 148.153.56.62 - Time: 2025-07-10 10:07:51
+2025-07-10 10:07:51,058 - WARNING - Not Found: /jquery-3.3.1.slim.min.js
+2025-07-10 10:07:51,914 - INFO - IP: 148.153.56.62 - Time: 2025-07-10 10:07:51
+2025-07-10 10:07:51,922 - WARNING - Not Found: /aab9
+2025-07-10 10:07:53,266 - INFO - IP: 148.153.56.62 - Time: 2025-07-10 10:07:53
+2025-07-10 10:07:53,275 - WARNING - Not Found: /jquery-3.3.2.slim.min.js
+2025-07-10 10:09:55,519 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 10:09:55
+2025-07-10 10:09:55,528 - WARNING - Not Found: /consultation/upload_used_car/
+2025-07-10 10:11:23,369 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 10:11:23
+2025-07-10 10:11:23,378 - WARNING - Not Found: /consultation/upload_used_car/
+2025-07-10 10:11:30,922 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 10:11:30
+2025-07-10 10:11:30,931 - WARNING - Not Found: /consultation/upload_used_car/
+2025-07-10 10:11:38,402 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 10:11:38
+2025-07-10 10:11:38,411 - WARNING - Not Found: /consultation/upload_used_car/
+2025-07-10 10:11:39,423 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 10:11:39
+2025-07-10 10:11:39,433 - WARNING - Not Found: /consultation/upload_used_car/
+2025-07-10 10:11:39,715 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 10:11:39
+2025-07-10 10:11:39,724 - WARNING - Not Found: /consultation/upload_used_car/
+2025-07-10 10:11:40,026 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 10:11:40
+2025-07-10 10:11:40,036 - WARNING - Not Found: /consultation/upload_used_car/
+2025-07-10 10:11:40,252 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 10:11:40
+2025-07-10 10:11:40,262 - WARNING - Not Found: /consultation/upload_used_car/
+2025-07-10 10:11:40,438 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 10:11:40
+2025-07-10 10:11:40,447 - WARNING - Not Found: /consultation/upload_used_car/
+2025-07-10 10:11:40,638 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 10:11:40
+2025-07-10 10:11:40,648 - WARNING - Not Found: /consultation/upload_used_car/
+2025-07-10 10:14:11,650 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 10:14:11
+2025-07-10 10:14:11,659 - WARNING - Not Found: /
+2025-07-10 10:14:19,916 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 10:14:19
+2025-07-10 10:14:19,926 - WARNING - Not Found: /consultation/upload_used_car/
+2025-07-10 10:14:21,427 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 10:14:21
+2025-07-10 10:14:21,439 - WARNING - Not Found: /consultation/upload_used_car/
+2025-07-10 10:15:33,312 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 10:15:33
+2025-07-10 10:15:52,872 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 10:15:52
+2025-07-10 10:15:52,880 - WARNING - Not Found: /consultation/upload_used_car/
+2025-07-10 10:16:01,024 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 10:16:01
+2025-07-10 10:16:01,033 - WARNING - Not Found: /.git/config
+2025-07-10 10:16:03,603 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 10:16:03
+2025-07-10 10:16:03,612 - WARNING - Not Found: /
+2025-07-10 10:16:04,357 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 10:16:04
+2025-07-10 10:16:04,366 - WARNING - Not Found: /
+2025-07-10 10:16:06,049 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 10:16:06
+2025-07-10 10:16:06,058 - WARNING - Not Found: /.env
+2025-07-10 10:16:06,467 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 10:16:06
+2025-07-10 10:16:06,476 - WARNING - Not Found: /phpinfo
+2025-07-10 10:16:09,284 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 10:16:09
+2025-07-10 10:16:09,293 - WARNING - Not Found: /phpinfo.php
+2025-07-10 10:16:11,141 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 10:16:11
+2025-07-10 10:16:11,150 - WARNING - Not Found: /portal/.env
+2025-07-10 10:16:13,010 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 10:16:13
+2025-07-10 10:16:13,019 - WARNING - Not Found: /env/.env
+2025-07-10 10:16:16,582 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 10:16:16
+2025-07-10 10:16:16,590 - WARNING - Not Found: /api/.env
+2025-07-10 10:16:20,963 - INFO - IP: 192.168.80.6 - Time: 2025-07-10 10:16:20
+2025-07-10 10:16:20,971 - WARNING - Not Found: /app/.env
+2025-07-10 02:16:47,578 - INFO - Django 日志系统启动成功！
+2025-07-10 02:20:47,008 - INFO - Django 日志系统启动成功！
+2025-07-10 02:22:46,606 - INFO - Django 日志系统启动成功！
+2025-07-10 02:33:45,707 - INFO - Django 日志系统启动成功！
+2025-07-10 10:33:46,564 - INFO - IP: 192.168.128.6 - Time: 2025-07-10 10:33:46
+2025-07-10 10:33:46,592 - WARNING - Not Found: /karma.conf.json
+2025-07-10 10:33:50,130 - INFO - IP: 192.168.128.6 - Time: 2025-07-10 10:33:50
+2025-07-10 10:33:50,139 - WARNING - Not Found: /swagger.json
+2025-07-10 10:33:53,422 - INFO - IP: 192.168.128.6 - Time: 2025-07-10 10:33:53
+2025-07-10 10:33:53,433 - WARNING - Not Found: /swagger.js
+2025-07-10 10:33:56,906 - INFO - IP: 192.168.128.6 - Time: 2025-07-10 10:33:56
+2025-07-10 10:33:56,915 - WARNING - Not Found: /gatsby-config.js
+2025-07-10 10:33:59,701 - INFO - IP: 192.168.128.6 - Time: 2025-07-10 10:33:59
+2025-07-10 10:33:59,712 - WARNING - Not Found: /backend/config/default.yml
+2025-07-10 10:34:03,221 - INFO - IP: 192.168.128.6 - Time: 2025-07-10 10:34:03
+2025-07-10 10:34:03,230 - WARNING - Not Found: /app.py
+2025-07-10 10:34:03,807 - INFO - IP: 192.168.128.6 - Time: 2025-07-10 10:34:03
+2025-07-10 10:34:03,916 - INFO - IP: 192.168.128.6 - Time: 2025-07-10 10:34:03
+2025-07-10 10:34:06,166 - INFO - IP: 192.168.128.6 - Time: 2025-07-10 10:34:06
+2025-07-10 10:34:07,163 - INFO - IP: 192.168.128.6 - Time: 2025-07-10 10:34:07
+2025-07-10 10:34:09,824 - INFO - IP: 192.168.128.6 - Time: 2025-07-10 10:34:09
+2025-07-10 10:34:10,269 - ERROR - Internal Server Error: /consultation/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "/usr/local/lib/python3.9/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+  File "/usr/local/lib/python3.9/site-packages/asgiref/current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.9/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+  File "/app/./consultation/views.py", line 36, in user_login
+    return redirect('dashboard')
+  File "/usr/local/lib/python3.9/site-packages/django/shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "/usr/local/lib/python3.9/site-packages/django/shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'dashboard' not found. 'dashboard' is not a valid view function or pattern name.
+2025-07-10 10:34:10,752 - INFO - IP: 192.168.128.6 - Time: 2025-07-10 10:34:10
+2025-07-10 10:34:16,915 - INFO - IP: 192.168.128.6 - Time: 2025-07-10 10:34:16
+2025-07-10 10:34:16,923 - WARNING - Not Found: /api/config.js
+2025-07-10 10:34:26,469 - INFO - IP: 192.168.128.6 - Time: 2025-07-10 10:34:26
+2025-07-10 10:34:26,668 - INFO - IP: 192.168.128.6 - Time: 2025-07-10 10:34:26
+2025-07-10 10:34:38,425 - INFO - IP: 192.168.128.6 - Time: 2025-07-10 10:34:38
+2025-07-10 10:34:38,954 - ERROR - Internal Server Error: /consultation/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "/usr/local/lib/python3.9/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+  File "/usr/local/lib/python3.9/site-packages/asgiref/current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.9/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+  File "/app/./consultation/views.py", line 36, in user_login
+    return redirect('dashboard')
+  File "/usr/local/lib/python3.9/site-packages/django/shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "/usr/local/lib/python3.9/site-packages/django/shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'dashboard' not found. 'dashboard' is not a valid view function or pattern name.
+2025-07-10 10:40:41,571 - INFO - IP: 193.34.212.110 - Time: 2025-07-10 10:40:41
+2025-07-10 10:40:41,580 - WARNING - Not Found: /
+2025-07-10 10:40:44,250 - INFO - IP: 192.168.128.6 - Time: 2025-07-10 10:40:44
+2025-07-10 10:40:44,259 - WARNING - Not Found: /
+2025-07-10 10:40:57,095 - INFO - IP: 192.168.128.6 - Time: 2025-07-10 10:40:57
+2025-07-10 10:40:57,103 - WARNING - Not Found: /consultation/admin
+2025-07-10 10:41:06,748 - INFO - IP: 205.210.31.48 - Time: 2025-07-10 10:41:06
+2025-07-10 10:41:06,757 - WARNING - Not Found: /
+2025-07-10 10:41:12,814 - INFO - IP: 192.168.128.6 - Time: 2025-07-10 10:41:12
+2025-07-10 10:41:12,872 - INFO - IP: 192.168.128.6 - Time: 2025-07-10 10:41:12
+2025-07-10 10:41:55,946 - INFO - IP: 192.168.128.6 - Time: 2025-07-10 10:41:55
+2025-07-10 10:42:23,541 - INFO - IP: 192.168.128.6 - Time: 2025-07-10 10:42:23
+2025-07-10 10:42:31,597 - INFO - IP: 192.168.128.6 - Time: 2025-07-10 10:42:31
+2025-07-10 10:42:39,771 - INFO - IP: 192.168.128.6 - Time: 2025-07-10 10:42:39
+2025-07-10 10:42:39,832 - INFO - IP: 192.168.128.6 - Time: 2025-07-10 10:42:39
+2025-07-10 10:42:40,868 - INFO - IP: 192.168.128.6 - Time: 2025-07-10 10:42:40
+2025-07-10 10:42:40,924 - INFO - IP: 192.168.128.6 - Time: 2025-07-10 10:42:40
+2025-07-10 10:42:41,588 - INFO - IP: 192.168.128.6 - Time: 2025-07-10 10:42:41
+2025-07-10 10:42:41,648 - INFO - IP: 192.168.128.6 - Time: 2025-07-10 10:42:41
+2025-07-10 10:42:41,952 - INFO - IP: 192.168.128.6 - Time: 2025-07-10 10:42:41
+2025-07-10 10:42:42,012 - INFO - IP: 192.168.128.6 - Time: 2025-07-10 10:42:42
+2025-07-10 02:46:43,537 - INFO - Django 日志系统启动成功！
+2025-07-10 02:48:28,803 - INFO - Django 日志系统启动成功！
+2025-07-10 10:48:53,148 - INFO - IP: 192.168.128.6 - Time: 2025-07-10 10:48:53
+2025-07-10 10:48:53,160 - WARNING - Not Found: /developmentserver/metadatauploader
+2025-07-10 10:50:38,496 - INFO - IP: 192.168.128.6 - Time: 2025-07-10 10:50:38
+2025-07-10 10:50:38,551 - INFO - IP: 192.168.128.6 - Time: 2025-07-10 10:50:38
+2025-07-10 10:50:40,238 - INFO - IP: 192.168.128.6 - Time: 2025-07-10 10:50:40
+2025-07-10 10:50:42,183 - INFO - IP: 192.168.128.6 - Time: 2025-07-10 10:50:42
+2025-07-10 10:50:44,461 - INFO - IP: 192.168.128.6 - Time: 2025-07-10 10:50:44
+2025-07-10 10:50:44,512 - INFO - IP: 192.168.128.6 - Time: 2025-07-10 10:50:44
+2025-07-10 10:50:45,213 - INFO - IP: 192.168.128.6 - Time: 2025-07-10 10:50:45
+2025-07-10 10:50:46,541 - INFO - IP: 192.168.128.6 - Time: 2025-07-10 10:50:46
+2025-07-10 10:50:47,163 - INFO - IP: 192.168.128.6 - Time: 2025-07-10 10:50:47
+2025-07-10 10:50:56,807 - INFO - IP: 192.168.128.6 - Time: 2025-07-10 10:50:56
+2025-07-10 10:50:56,858 - INFO - IP: 192.168.128.6 - Time: 2025-07-10 10:50:56
+2025-07-10 10:51:01,136 - INFO - IP: 192.168.128.6 - Time: 2025-07-10 10:51:01
+2025-07-10 10:51:01,629 - INFO - IP: 192.168.128.6 - Time: 2025-07-10 10:51:01
+2025-07-10 10:51:17,124 - INFO - IP: 192.168.128.6 - Time: 2025-07-10 10:51:17
+2025-07-10 02:53:12,927 - INFO - Django 日志系统启动成功！
+2025-07-10 10:53:13,553 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 10:53:13
+2025-07-10 10:53:14,608 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 10:53:14
+2025-07-10 10:53:15,508 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 10:53:15
+2025-07-10 10:53:15,567 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 10:53:15
+2025-07-10 10:53:23,099 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 10:53:23
+2025-07-10 10:53:23,309 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 10:53:23
+2025-07-10 10:53:30,524 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 10:53:30
+2025-07-10 10:56:38,931 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 10:56:38
+2025-07-10 10:56:38,943 - WARNING - Not Found: /
+2025-07-10 10:57:25,460 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 10:57:25
+2025-07-10 10:57:25,468 - WARNING - Not Found: /
+2025-07-10 11:01:41,338 - INFO - IP: 196.251.87.47 - Time: 2025-07-10 11:01:41
+2025-07-10 11:01:41,348 - WARNING - Not Found: /
+2025-07-10 11:10:18,183 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 11:10:18
+2025-07-10 11:10:18,192 - WARNING - Not Found: /
+2025-07-10 11:18:14,235 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 11:18:14
+2025-07-10 11:18:14,245 - WARNING - Not Found: /consultation/admin
+2025-07-10 11:19:28,132 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 11:19:28
+2025-07-10 03:21:46,114 - INFO - Django 日志系统启动成功！
+2025-07-10 03:22:16,581 - INFO - Django 日志系统启动成功！
+2025-07-10 03:22:25,176 - INFO - Django 日志系统启动成功！
+2025-07-10 11:23:07,480 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 11:23:07
+2025-07-10 11:23:07,488 - WARNING - Not Found: /
+2025-07-10 11:32:24,622 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 11:32:24
+2025-07-10 11:32:24,630 - WARNING - Not Found: /
+2025-07-10 11:41:03,721 - INFO - IP: 196.251.87.47 - Time: 2025-07-10 11:41:03
+2025-07-10 11:41:03,729 - WARNING - Not Found: /
+2025-07-10 11:50:30,944 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 11:50:30
+2025-07-10 11:50:30,952 - WARNING - Not Found: /
+2025-07-10 11:57:11,278 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 11:57:11
+2025-07-10 11:57:11,286 - WARNING - Not Found: /.env
+2025-07-10 11:57:11,540 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 11:57:11
+2025-07-10 11:57:11,548 - WARNING - Not Found: /wp-content/
+2025-07-10 12:00:27,584 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 12:00:27
+2025-07-10 12:00:27,593 - WARNING - Not Found: /system.ini
+2025-07-10 12:01:35,217 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 12:01:35
+2025-07-10 12:01:35,225 - WARNING - Not Found: /
+2025-07-10 12:05:31,657 - INFO - IP: 193.34.212.110 - Time: 2025-07-10 12:05:31
+2025-07-10 12:05:31,666 - WARNING - Not Found: /
+2025-07-10 12:16:40,968 - INFO - IP: 149.86.227.49 - Time: 2025-07-10 12:16:40
+2025-07-10 12:16:40,977 - WARNING - Not Found: /
+2025-07-10 12:16:55,957 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 12:16:55
+2025-07-10 12:16:55,965 - WARNING - Not Found: /
+2025-07-10 12:26:11,330 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 12:26:11
+2025-07-10 12:26:11,339 - WARNING - Not Found: /
+2025-07-10 12:31:16,256 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 12:31:16
+2025-07-10 12:31:16,264 - WARNING - Not Found: /
+2025-07-10 12:31:16,750 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 12:31:16
+2025-07-10 12:31:16,758 - WARNING - Not Found: /form.html
+2025-07-10 12:31:17,246 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 12:31:17
+2025-07-10 12:31:17,253 - WARNING - Not Found: /upl.php
+2025-07-10 12:31:17,734 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 12:31:17
+2025-07-10 12:31:17,743 - WARNING - Not Found: /t4
+2025-07-10 12:31:18,223 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 12:31:18
+2025-07-10 12:31:18,231 - WARNING - Not Found: /geoip/
+2025-07-10 12:31:18,715 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 12:31:18
+2025-07-10 12:31:18,724 - WARNING - Not Found: /favicon.ico
+2025-07-10 12:31:19,202 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 12:31:19
+2025-07-10 12:31:19,210 - WARNING - Not Found: /1.php
+2025-07-10 12:31:19,699 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 12:31:19
+2025-07-10 12:31:19,708 - WARNING - Not Found: /systembc/password.php
+2025-07-10 12:31:21,240 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 12:31:21
+2025-07-10 12:31:21,249 - WARNING - Not Found: /password.php
+2025-07-10 12:43:34,304 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 12:43:34
+2025-07-10 12:43:34,315 - WARNING - Not Found: /
+2025-07-10 12:51:41,796 - INFO - IP: 167.94.138.182 - Time: 2025-07-10 12:51:41
+2025-07-10 12:51:41,807 - WARNING - Not Found: /
+2025-07-10 12:52:07,672 - INFO - IP: 167.94.138.182 - Time: 2025-07-10 12:52:07
+2025-07-10 12:52:07,680 - WARNING - Not Found: /favicon.ico
+2025-07-10 12:52:35,560 - INFO - IP: 167.94.138.182 - Time: 2025-07-10 12:52:35
+2025-07-10 12:52:35,570 - WARNING - Not Found: /login
+2025-07-10 12:56:01,698 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 12:56:01
+2025-07-10 12:56:01,707 - WARNING - Not Found: /
+2025-07-10 13:07:35,973 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 13:07:35
+2025-07-10 13:07:35,980 - WARNING - Not Found: /
+2025-07-10 13:19:11,484 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 13:19:11
+2025-07-10 13:19:11,493 - WARNING - Not Found: /
+2025-07-10 13:27:23,090 - INFO - IP: 8.219.209.185 - Time: 2025-07-10 13:27:23
+2025-07-10 13:27:23,100 - WARNING - Not Found: http://passport.baidu.com/
+2025-07-10 13:33:10,219 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 13:33:10
+2025-07-10 13:33:10,232 - WARNING - Not Found: /
+2025-07-10 13:34:46,836 - INFO - IP: 149.86.227.49 - Time: 2025-07-10 13:34:46
+2025-07-10 13:34:46,845 - WARNING - Not Found: /
+2025-07-10 13:36:31,812 - INFO - IP: 34.93.210.140 - Time: 2025-07-10 13:36:31
+2025-07-10 13:36:31,821 - WARNING - Not Found: /
+2025-07-10 13:42:40,119 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 13:42:40
+2025-07-10 13:42:40,128 - WARNING - Not Found: /druid/index.html
+2025-07-10 13:47:45,081 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 13:47:45
+2025-07-10 13:47:45,090 - WARNING - Not Found: /
+2025-07-10 13:58:58,332 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 13:58:58
+2025-07-10 13:58:58,340 - WARNING - Not Found: /
+2025-07-10 14:01:36,188 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 14:01:36
+2025-07-10 14:01:36,197 - WARNING - Not Found: /
+2025-07-10 14:01:36,253 - INFO - IP: 58.216.132.5 - Time: 2025-07-10 14:01:36
+2025-07-10 14:01:36,262 - WARNING - Not Found: /
+2025-07-10 14:01:41,370 - INFO - IP: 58.216.132.5 - Time: 2025-07-10 14:01:41
+2025-07-10 14:01:41,379 - WARNING - Not Found: /bad ip,/Trinity.php.bakup
+2025-07-10 14:01:57,008 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 14:01:57
+2025-07-10 14:01:57,016 - WARNING - Not Found: /
+2025-07-10 14:02:00,470 - INFO - IP: 58.216.132.5 - Time: 2025-07-10 14:02:00
+2025-07-10 14:02:00,472 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 14:02:00
+2025-07-10 14:02:00,485 - WARNING - Not Found: /
+2025-07-10 14:02:00,489 - WARNING - Not Found: /
+2025-07-10 14:02:00,680 - INFO - IP: 58.216.132.5 - Time: 2025-07-10 14:02:00
+2025-07-10 14:02:00,681 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 14:02:00
+2025-07-10 14:02:00,698 - WARNING - Not Found: /
+2025-07-10 14:02:00,699 - WARNING - Not Found: /
+2025-07-10 14:05:06,671 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 14:05:06
+2025-07-10 14:05:06,681 - WARNING - Not Found: /
+2025-07-10 14:05:15,827 - INFO - IP: 193.34.212.110 - Time: 2025-07-10 14:05:15
+2025-07-10 14:05:15,877 - WARNING - Not Found: /
+2025-07-10 14:10:14,943 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 14:10:14
+2025-07-10 14:10:14,953 - WARNING - Not Found: /
+2025-07-10 14:10:17,152 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 14:10:17
+2025-07-10 14:10:17,161 - WARNING - Not Found: /.env
+2025-07-10 14:10:51,336 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 14:10:51
+2025-07-10 14:10:51,348 - WARNING - Not Found: /
+2025-07-10 14:19:58,494 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 14:19:58
+2025-07-10 14:19:58,503 - WARNING - Not Found: /
+2025-07-10 14:20:07,262 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 14:20:07
+2025-07-10 14:20:07,271 - WARNING - Not Found: /
+2025-07-10 14:31:59,564 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 14:31:59
+2025-07-10 14:31:59,572 - WARNING - Not Found: /
+2025-07-10 14:33:53,622 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 14:33:53
+2025-07-10 14:33:53,631 - WARNING - Not Found: /
+2025-07-10 14:43:40,424 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 14:43:40
+2025-07-10 14:43:40,433 - WARNING - Not Found: /
+2025-07-10 14:53:34,393 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 14:53:34
+2025-07-10 14:53:35,424 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 14:53:35
+2025-07-10 14:53:36,226 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 14:53:36
+2025-07-10 14:53:36,452 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 14:53:36
+2025-07-10 14:53:36,689 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 14:53:36
+2025-07-10 14:53:48,468 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 14:53:48
+2025-07-10 14:54:02,966 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 14:54:02
+2025-07-10 15:00:08,200 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 15:00:08
+2025-07-10 15:00:08,212 - WARNING - Not Found: /
+2025-07-10 15:02:50,313 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 15:02:50
+2025-07-10 15:02:50,321 - WARNING - Not Found: /send_order.cgi
+2025-07-10 15:02:54,417 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 15:02:54
+2025-07-10 15:02:55,308 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 15:02:55
+2025-07-10 15:02:55,533 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 15:02:55
+2025-07-10 15:03:02,317 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 15:03:02
+2025-07-10 15:03:02,392 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 15:03:02
+2025-07-10 15:03:05,765 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 15:03:05
+2025-07-10 15:03:08,349 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 15:03:08
+2025-07-10 15:03:08,780 - ERROR - Internal Server Error: /consultation/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "/usr/local/lib/python3.9/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+  File "/usr/local/lib/python3.9/site-packages/asgiref/current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.9/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+  File "/app/./consultation/views.py", line 36, in user_login
+    login(request, user)
+  File "/usr/local/lib/python3.9/site-packages/django/shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "/usr/local/lib/python3.9/site-packages/django/shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'dashboard' not found. 'dashboard' is not a valid view function or pattern name.
+2025-07-10 15:04:32,207 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 15:04:32
+2025-07-10 15:04:32,216 - WARNING - Not Found: /
+2025-07-10 15:10:07,926 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 15:10:07
+2025-07-10 15:10:08,364 - ERROR - Internal Server Error: /consultation/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "/usr/local/lib/python3.9/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+  File "/usr/local/lib/python3.9/site-packages/asgiref/current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.9/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+  File "/app/./consultation/views.py", line 36, in user_login
+    login(request, user)
+  File "/usr/local/lib/python3.9/site-packages/django/shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "/usr/local/lib/python3.9/site-packages/django/shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'dashboard' not found. 'dashboard' is not a valid view function or pattern name.
+2025-07-10 15:10:13,815 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 15:10:13
+2025-07-10 15:10:13,823 - WARNING - Not Found: /
+2025-07-10 15:12:24,820 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 15:12:24
+2025-07-10 15:12:25,250 - ERROR - Internal Server Error: /consultation/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "/usr/local/lib/python3.9/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+  File "/usr/local/lib/python3.9/site-packages/asgiref/current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.9/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+  File "/app/./consultation/views.py", line 36, in user_login
+    login(request, user)
+  File "/usr/local/lib/python3.9/site-packages/django/shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "/usr/local/lib/python3.9/site-packages/django/shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'dashboard' not found. 'dashboard' is not a valid view function or pattern name.
+2025-07-10 15:21:12,530 - INFO - IP: 149.86.227.49 - Time: 2025-07-10 15:21:12
+2025-07-10 15:21:12,542 - WARNING - Not Found: /
+2025-07-10 15:25:29,101 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 15:25:29
+2025-07-10 15:25:29,112 - WARNING - Not Found: /
+2025-07-10 15:31:36,533 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 15:31:36
+2025-07-10 15:31:36,542 - WARNING - Not Found: /.env
+2025-07-10 15:31:37,107 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 15:31:37
+2025-07-10 15:31:37,115 - WARNING - Not Found: /.git/config
+2025-07-10 15:37:21,013 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 15:37:21
+2025-07-10 15:37:21,023 - WARNING - Not Found: /
+2025-07-10 15:37:45,504 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 15:37:45
+2025-07-10 15:37:45,931 - ERROR - Internal Server Error: /consultation/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "/usr/local/lib/python3.9/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+  File "/usr/local/lib/python3.9/site-packages/asgiref/current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.9/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+  File "/app/./consultation/views.py", line 36, in user_login
+    login(request, user)
+  File "/usr/local/lib/python3.9/site-packages/django/shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "/usr/local/lib/python3.9/site-packages/django/shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'dashboard' not found. 'dashboard' is not a valid view function or pattern name.
+2025-07-10 15:40:24,476 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 15:40:24
+2025-07-10 15:40:24,483 - WARNING - Not Found: /
+2025-07-10 15:41:14,168 - INFO - IP: 193.34.212.110 - Time: 2025-07-10 15:41:14
+2025-07-10 15:41:14,176 - WARNING - Not Found: /
+2025-07-10 15:45:57,206 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 15:45:57
+2025-07-10 15:45:57,674 - ERROR - Internal Server Error: /consultation/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "/usr/local/lib/python3.9/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+  File "/usr/local/lib/python3.9/site-packages/asgiref/current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.9/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+  File "/app/./consultation/views.py", line 36, in user_login
+    login(request, user)
+  File "/usr/local/lib/python3.9/site-packages/django/shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "/usr/local/lib/python3.9/site-packages/django/shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'dashboard' not found. 'dashboard' is not a valid view function or pattern name.
+2025-07-10 15:49:06,445 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 15:49:06
+2025-07-10 15:49:06,454 - WARNING - Not Found: /
+2025-07-10 15:49:57,176 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 15:49:57
+2025-07-10 15:49:57,184 - WARNING - Not Found: /
+2025-07-10 16:07:23,317 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:07:23
+2025-07-10 16:07:23,328 - WARNING - Not Found: /
+2025-07-10 16:07:31,359 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:07:31
+2025-07-10 16:07:31,368 - WARNING - Not Found: /
+2025-07-10 16:13:38,775 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:13:38
+2025-07-10 16:13:38,784 - WARNING - Not Found: /
+2025-07-10 16:14:39,381 - INFO - IP: 159.89.168.40 - Time: 2025-07-10 16:14:39
+2025-07-10 16:14:39,388 - WARNING - Not Found: /
+2025-07-10 16:14:39,558 - INFO - IP: 159.89.168.40 - Time: 2025-07-10 16:14:39
+2025-07-10 16:14:39,568 - WARNING - Not Found: /favicon.ico
+2025-07-10 16:15:51,559 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:15:51
+2025-07-10 16:15:51,568 - WARNING - Not Found: /
+2025-07-10 16:31:24,129 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:31:24
+2025-07-10 16:31:24,139 - WARNING - Not Found: /
+2025-07-10 16:47:05,761 - INFO - IP: 205.210.31.2 - Time: 2025-07-10 16:47:05
+2025-07-10 16:47:05,769 - WARNING - Not Found: /
+2025-07-10 16:50:05,602 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:50:05
+2025-07-10 16:50:05,611 - WARNING - Not Found: /
+2025-07-10 16:52:11,177 - INFO - IP: 149.86.227.49 - Time: 2025-07-10 16:52:11
+2025-07-10 16:52:11,185 - WARNING - Not Found: /
+2025-07-10 16:55:25,655 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:55:25
+2025-07-10 16:55:25,664 - WARNING - Not Found: /
+2025-07-10 16:55:26,584 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:55:26
+2025-07-10 16:55:26,593 - WARNING - Not Found: /public/.env
+2025-07-10 16:55:28,844 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:55:28
+2025-07-10 16:55:28,853 - WARNING - Not Found: /laravel/.env
+2025-07-10 16:55:32,793 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:55:32
+2025-07-10 16:55:32,802 - WARNING - Not Found: /infophp.php
+2025-07-10 16:55:34,669 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:55:34
+2025-07-10 16:55:34,678 - WARNING - Not Found: /php_info.php
+2025-07-10 16:55:34,997 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:55:34
+2025-07-10 16:55:35,005 - WARNING - Not Found: /test.php
+2025-07-10 16:55:37,724 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:55:37
+2025-07-10 16:55:37,733 - WARNING - Not Found: /i.php
+2025-07-10 16:55:41,333 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:55:41
+2025-07-10 16:55:41,344 - WARNING - Not Found: /asdf.php
+2025-07-10 16:55:46,865 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:55:46
+2025-07-10 16:55:46,875 - WARNING - Not Found: /pinfo.php
+2025-07-10 16:55:51,939 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:55:51
+2025-07-10 16:55:51,949 - WARNING - Not Found: /phpversion.php
+2025-07-10 16:55:55,684 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:55:55
+2025-07-10 16:55:55,691 - WARNING - Not Found: /time.php
+2025-07-10 16:55:58,464 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:55:58
+2025-07-10 16:55:58,473 - WARNING - Not Found: /temp.php
+2025-07-10 16:56:00,329 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:56:00
+2025-07-10 16:56:00,337 - WARNING - Not Found: /old_phpinfo.php
+2025-07-10 16:56:04,153 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:56:04
+2025-07-10 16:56:04,162 - WARNING - Not Found: /infos.php
+2025-07-10 16:56:09,187 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:56:09
+2025-07-10 16:56:09,196 - WARNING - Not Found: /linusadmin-phpinfo.php
+2025-07-10 16:56:10,533 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:56:10
+2025-07-10 16:56:10,542 - WARNING - Not Found: /php-info.php
+2025-07-10 16:56:12,719 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:56:12
+2025-07-10 16:56:12,727 - WARNING - Not Found: /dashboard/phpinfo.php
+2025-07-10 16:56:15,850 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:56:15
+2025-07-10 16:56:15,859 - WARNING - Not Found: /phpinfo.php3
+2025-07-10 16:56:21,087 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:56:21
+2025-07-10 16:56:21,096 - WARNING - Not Found: /phpinfo.php4
+2025-07-10 16:56:22,779 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:56:22
+2025-07-10 16:56:22,788 - WARNING - Not Found: /phpinfo.php5
+2025-07-10 16:56:23,238 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:56:23
+2025-07-10 16:56:23,247 - WARNING - Not Found: /phpinfos.php
+2025-07-10 16:56:23,802 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:56:23
+2025-07-10 16:56:23,812 - WARNING - Not Found: /_profiler/phpinfo.php
+2025-07-10 16:56:28,557 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:56:28
+2025-07-10 16:56:28,568 - WARNING - Not Found: /laravel/core/.env
+2025-07-10 16:56:29,623 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:56:29
+2025-07-10 16:56:29,632 - WARNING - Not Found: /beta/.env
+2025-07-10 16:56:30,335 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:56:30
+2025-07-10 16:56:30,345 - WARNING - Not Found: /kyc/.env
+2025-07-10 16:56:30,939 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:56:30
+2025-07-10 16:56:33,486 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:56:33
+2025-07-10 16:56:40,276 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:56:40
+2025-07-10 16:56:40,288 - WARNING - Not Found: /prod/.env
+2025-07-10 16:56:43,993 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:56:43
+2025-07-10 16:56:44,001 - WARNING - Not Found: /api/.env
+2025-07-10 16:56:45,549 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:56:45
+2025-07-10 16:56:45,557 - WARNING - Not Found: /.docker/laravel/app/.env
+2025-07-10 16:56:51,098 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:56:51
+2025-07-10 16:56:51,107 - WARNING - Not Found: /.docker/.env
+2025-07-10 16:56:53,979 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:56:53
+2025-07-10 16:56:53,988 - WARNING - Not Found: /.gitlab-ci/.env
+2025-07-10 16:56:59,222 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:56:59
+2025-07-10 16:56:59,231 - WARNING - Not Found: /.vscode/.env
+2025-07-10 16:57:00,251 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:57:00
+2025-07-10 16:57:00,260 - WARNING - Not Found: /web/.env
+2025-07-10 16:57:01,519 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:57:01
+2025-07-10 16:57:01,530 - WARNING - Not Found: /app/.env
+2025-07-10 16:57:05,050 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:57:05
+2025-07-10 16:57:05,058 - WARNING - Not Found: /crm/.env
+2025-07-10 16:57:06,986 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:57:06
+2025-07-10 16:57:06,995 - WARNING - Not Found: /backend/.env
+2025-07-10 16:57:10,155 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:57:10
+2025-07-10 16:57:10,164 - WARNING - Not Found: /local/.env
+2025-07-10 16:57:13,875 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:57:13
+2025-07-10 16:57:13,884 - WARNING - Not Found: /application/.env
+2025-07-10 16:57:14,696 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:57:14
+2025-07-10 16:57:14,705 - WARNING - Not Found: /.env
+2025-07-10 16:57:15,319 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:57:15
+2025-07-10 16:57:15,328 - WARNING - Not Found: /live_env
+2025-07-10 16:57:19,543 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:57:19
+2025-07-10 16:57:19,554 - WARNING - Not Found: /admin-app/.env
+2025-07-10 16:57:22,770 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:57:22
+2025-07-10 16:57:22,780 - WARNING - Not Found: /mailer/.env
+2025-07-10 16:57:25,938 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:57:25
+2025-07-10 16:57:25,949 - WARNING - Not Found: /laravel/.env
+2025-07-10 16:57:29,003 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:57:29
+2025-07-10 16:57:29,015 - WARNING - Not Found: /shared/.env
+2025-07-10 16:57:31,792 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:57:31
+2025-07-10 16:57:31,803 - WARNING - Not Found: /.env.project
+2025-07-10 16:57:32,328 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:57:32
+2025-07-10 16:57:32,337 - WARNING - Not Found: /apps/.env
+2025-07-10 16:57:33,695 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:57:33
+2025-07-10 16:57:33,705 - WARNING - Not Found: /development/.env
+2025-07-10 16:57:37,173 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:57:37
+2025-07-10 16:57:37,182 - WARNING - Not Found: /public/client/planinfo
+2025-07-10 16:57:40,047 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:57:40
+2025-07-10 16:57:40,056 - WARNING - Not Found: /_profiler/phpinfo
+2025-07-10 16:57:42,086 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:57:42
+2025-07-10 16:57:42,095 - WARNING - Not Found: /phpinfo.php
+2025-07-10 16:57:42,502 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:57:42
+2025-07-10 16:57:42,510 - WARNING - Not Found: /info.php
+2025-07-10 16:57:44,752 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:57:44
+2025-07-10 16:57:44,763 - WARNING - Not Found: /aws.yml
+2025-07-10 16:57:45,983 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:57:45
+2025-07-10 16:57:45,992 - WARNING - Not Found: /.env.bak
+2025-07-10 16:57:47,484 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:57:47
+2025-07-10 16:57:47,494 - WARNING - Not Found: /.env.config
+2025-07-10 16:57:48,425 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:57:48
+2025-07-10 16:57:48,434 - WARNING - Not Found: /.env.bak
+2025-07-10 16:57:49,350 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:57:49
+2025-07-10 16:57:49,359 - WARNING - Not Found: /.env-example
+2025-07-10 16:57:50,660 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:57:50
+2025-07-10 16:57:50,669 - WARNING - Not Found: /.env-sample
+2025-07-10 16:57:51,650 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:57:51
+2025-07-10 16:57:51,659 - WARNING - Not Found: /.env.backup
+2025-07-10 16:57:54,572 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:57:54
+2025-07-10 16:57:54,581 - WARNING - Not Found: /.env.dev
+2025-07-10 16:57:55,212 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:57:55
+2025-07-10 16:57:55,221 - WARNING - Not Found: /.env.dev.local
+2025-07-10 16:57:55,892 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:57:55
+2025-07-10 16:57:55,900 - WARNING - Not Found: /.env.development.local
+2025-07-10 16:57:58,772 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:57:58
+2025-07-10 16:57:58,782 - WARNING - Not Found: /.env.development.sample
+2025-07-10 16:57:59,171 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:57:59
+2025-07-10 16:57:59,180 - WARNING - Not Found: /.env.dist
+2025-07-10 16:58:00,422 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:58:00
+2025-07-10 16:58:00,430 - WARNING - Not Found: /.env.docker
+2025-07-10 16:58:01,048 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:58:01
+2025-07-10 16:58:01,057 - WARNING - Not Found: /.env.docker.dev
+2025-07-10 16:58:01,940 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:58:01
+2025-07-10 16:58:01,949 - WARNING - Not Found: /.env.example
+2025-07-10 16:58:03,450 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:58:03
+2025-07-10 16:58:03,458 - WARNING - Not Found: /.env.local
+2025-07-10 16:58:04,360 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:58:04
+2025-07-10 16:58:04,369 - WARNING - Not Found: /.env.prod
+2025-07-10 16:58:06,419 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:58:06
+2025-07-10 16:58:06,429 - WARNING - Not Found: /.env.prod.local
+2025-07-10 16:58:08,862 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 16:58:08
+2025-07-10 16:58:08,871 - WARNING - Not Found: /.env.production
+2025-07-10 17:02:57,851 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 17:02:57
+2025-07-10 17:02:57,860 - WARNING - Not Found: /
+2025-07-10 17:10:24,169 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 17:10:24
+2025-07-10 17:10:24,178 - WARNING - Not Found: /
+2025-07-10 17:28:49,350 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 17:28:49
+2025-07-10 17:28:49,359 - WARNING - Not Found: /
+2025-07-10 17:30:18,050 - INFO - IP: 15.235.224.227 - Time: 2025-07-10 17:30:18
+2025-07-10 17:30:18,058 - WARNING - Not Found: /
+2025-07-10 17:36:59,632 - INFO - IP: 149.86.227.49 - Time: 2025-07-10 17:36:59
+2025-07-10 17:36:59,641 - WARNING - Not Found: /
+2025-07-10 17:42:26,910 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 17:42:26
+2025-07-10 17:42:26,918 - WARNING - Not Found: /
+2025-07-10 17:55:36,347 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 17:55:36
+2025-07-10 17:55:36,357 - WARNING - Not Found: /
+2025-07-10 17:56:19,188 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 17:56:19
+2025-07-10 17:56:19,195 - WARNING - Not Found: /
+2025-07-10 18:03:32,275 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 18:03:32
+2025-07-10 18:03:32,285 - WARNING - Not Found: /
+2025-07-10 18:22:57,302 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 18:22:57
+2025-07-10 18:22:57,310 - WARNING - Not Found: /
+2025-07-10 18:36:20,808 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 18:36:20
+2025-07-10 18:36:20,815 - WARNING - Not Found: /
+2025-07-10 18:36:54,289 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 18:36:54
+2025-07-10 18:36:54,297 - WARNING - Not Found: /
+2025-07-10 18:51:16,372 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 18:51:16
+2025-07-10 18:51:16,381 - WARNING - Not Found: /
+2025-07-10 18:53:56,447 - INFO - IP: 193.34.212.110 - Time: 2025-07-10 18:53:56
+2025-07-10 18:53:56,455 - WARNING - Not Found: /
+2025-07-10 18:59:35,998 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 18:59:35
+2025-07-10 18:59:36,006 - WARNING - Not Found: /
+2025-07-10 19:12:55,813 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 19:12:55
+2025-07-10 19:12:55,822 - WARNING - Not Found: /
+2025-07-10 19:16:58,210 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 19:16:58
+2025-07-10 19:16:58,218 - WARNING - Not Found: /
+2025-07-10 19:30:33,460 - INFO - IP: 18.220.154.78 - Time: 2025-07-10 19:30:33
+2025-07-10 19:30:33,469 - WARNING - Not Found: /
+2025-07-10 19:32:03,102 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 19:32:03
+2025-07-10 19:32:03,110 - WARNING - Not Found: /
+2025-07-10 19:37:21,450 - INFO - IP: 149.86.227.49 - Time: 2025-07-10 19:37:21
+2025-07-10 19:37:21,459 - WARNING - Not Found: /
+2025-07-10 19:38:22,620 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 19:38:22
+2025-07-10 19:38:22,628 - WARNING - Not Found: /
+2025-07-10 19:45:32,227 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 19:45:32
+2025-07-10 19:45:32,236 - WARNING - Not Found: /
+2025-07-10 19:54:54,769 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 19:54:54
+2025-07-10 19:54:54,777 - WARNING - Not Found: /
+2025-07-10 19:55:01,587 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 19:55:01
+2025-07-10 19:55:01,598 - WARNING - Not Found: /
+2025-07-10 20:11:16,668 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 20:11:16
+2025-07-10 20:11:16,677 - WARNING - Not Found: /
+2025-07-10 20:22:04,990 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 20:22:04
+2025-07-10 20:22:04,998 - WARNING - Not Found: /
+2025-07-10 20:40:36,450 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 20:40:36
+2025-07-10 20:40:36,458 - WARNING - Not Found: /
+2025-07-10 20:47:33,178 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 20:47:33
+2025-07-10 20:47:33,187 - WARNING - Not Found: /
+2025-07-10 20:59:54,766 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 20:59:54
+2025-07-10 20:59:54,775 - WARNING - Not Found: /
+2025-07-10 21:16:17,948 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 21:16:17
+2025-07-10 21:16:17,957 - WARNING - Not Found: /
+2025-07-10 21:30:45,692 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 21:30:45
+2025-07-10 21:30:45,700 - WARNING - Not Found: /
+2025-07-10 21:32:23,111 - INFO - IP: 149.86.227.49 - Time: 2025-07-10 21:32:23
+2025-07-10 21:32:23,119 - WARNING - Not Found: /
+2025-07-10 21:33:10,181 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 21:33:10
+2025-07-10 21:33:10,190 - WARNING - Not Found: /
+2025-07-10 21:41:06,501 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 21:41:06
+2025-07-10 21:41:06,510 - WARNING - Not Found: /
+2025-07-10 21:41:18,404 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 21:41:18
+2025-07-10 21:41:18,413 - WARNING - Not Found: /
+2025-07-10 21:42:06,067 - INFO - IP: 147.185.132.63 - Time: 2025-07-10 21:42:06
+2025-07-10 21:42:06,077 - WARNING - Not Found: /
+2025-07-10 21:43:27,792 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 21:43:27
+2025-07-10 21:43:27,800 - WARNING - Not Found: /
+2025-07-10 21:58:08,272 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 21:58:08
+2025-07-10 21:58:08,280 - WARNING - Not Found: /
+2025-07-10 21:59:23,894 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 21:59:23
+2025-07-10 21:59:23,902 - WARNING - Not Found: /
+2025-07-10 22:01:08,497 - INFO - IP: 193.34.212.110 - Time: 2025-07-10 22:01:08
+2025-07-10 22:01:08,505 - WARNING - Not Found: /
+2025-07-10 22:15:42,388 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 22:15:42
+2025-07-10 22:15:42,396 - WARNING - Not Found: /
+2025-07-10 22:21:56,193 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 22:21:56
+2025-07-10 22:21:56,200 - WARNING - Not Found: /
+2025-07-10 22:22:27,582 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 22:22:27
+2025-07-10 22:22:27,590 - WARNING - Not Found: /
+2025-07-10 22:38:26,347 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 22:38:26
+2025-07-10 22:38:26,354 - WARNING - Not Found: /
+2025-07-10 22:50:22,251 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 22:50:22
+2025-07-10 22:50:22,260 - WARNING - Not Found: /
+2025-07-10 22:53:53,195 - INFO - IP: 149.86.227.49 - Time: 2025-07-10 22:53:53
+2025-07-10 22:53:53,204 - WARNING - Not Found: /
+2025-07-10 22:59:07,303 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 22:59:07
+2025-07-10 22:59:07,313 - WARNING - Not Found: /
+2025-07-10 23:02:10,099 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 23:02:10
+2025-07-10 23:02:10,107 - WARNING - Not Found: /
+2025-07-10 23:19:07,949 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 23:19:07
+2025-07-10 23:19:07,958 - WARNING - Not Found: /
+2025-07-10 23:33:07,998 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 23:33:07
+2025-07-10 23:33:08,007 - WARNING - Not Found: /_profiler/phpinfo
+2025-07-10 23:33:23,027 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 23:33:23
+2025-07-10 23:33:23,036 - WARNING - Not Found: /
+2025-07-10 23:35:32,155 - INFO - IP: 193.34.212.110 - Time: 2025-07-10 23:35:32
+2025-07-10 23:35:32,164 - WARNING - Not Found: /
+2025-07-10 23:48:04,989 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 23:48:04
+2025-07-10 23:48:04,998 - WARNING - Not Found: /
+2025-07-10 23:48:39,147 - INFO - IP: 162.142.125.112 - Time: 2025-07-10 23:48:39
+2025-07-10 23:48:39,155 - WARNING - Not Found: /
+2025-07-10 23:48:43,222 - INFO - IP: 162.142.125.112 - Time: 2025-07-10 23:48:43
+2025-07-10 23:48:43,232 - WARNING - Not Found: /
+2025-07-10 23:48:47,423 - INFO - IP: 162.142.125.112 - Time: 2025-07-10 23:48:47
+2025-07-10 23:48:47,432 - WARNING - Not Found: /favicon.ico
+2025-07-10 23:49:06,477 - INFO - IP: 162.142.125.112 - Time: 2025-07-10 23:49:06
+2025-07-10 23:49:06,489 - WARNING - Not Found: /sitemap.xml
+2025-07-10 23:49:20,331 - INFO - IP: 192.168.144.6 - Time: 2025-07-10 23:49:20
+2025-07-10 23:49:20,339 - WARNING - Not Found: /.git/config

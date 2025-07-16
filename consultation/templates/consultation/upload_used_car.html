@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>上传二手车信息</title>
+    <link rel="stylesheet" href="{% static 'css/upload_used_car.css' %}">
+</head>
+<body>
+    <h2>上传二手车信息</h2>
+    <form id="carForm" enctype="multipart/form-data">
+        <label>品牌: <input type="text" name="brand" required></label><br>
+        <label>车型: <input type="text" name="model" required></label><br>
+        <label>生产年份: <input type="number" name="production_year" required></label><br>
+        <label>保险情况: <input type="text" name="insurance_status" required></label><br>
+        <label>年限情况: <input type="number" name="usage_years" required></label><br>
+        <label>是否发生过重大事故:
+            <select name="major_accident" required>
+                <option value="false">否</option>
+                <option value="true">是</option>
+            </select>
+        </label><br>
+        <label>车辆图片: <input type="file" name="image" accept="image/*" required></label><br>
+        <button type="submit">提交</button>
+    </form>
+
+    <div id="message"></div>
+
+    <script src="{% static 'js/upload_used_car.js' %}"></script>
+</body>
+</html>
+

@@ -78,6 +78,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'django.template.context_processors.static',
             ],
         },
     },
@@ -161,14 +162,27 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
+#STATIC_URL = '/static/'
+#STATIC_ROOT = '/app/staticfiles'
+#DEBUG = True # 部署生产环境注释即可，需执行：docker-compose exec web python manage.py collectstatic --noinput   此命令会将所有静态文件（包括 Admin 后台的 CSS/JS）复制到 STATIC_ROOT（即 /app/staticfiles）
+# 开发模式 vs 生产模式
+#if DEBUG:
+#    STATICFILES_DIRS = [BASE_DIR / "consultation/static"]  # 开发时直接使用源码中的静态文件
+#else:
+#    STATIC_ROOT = '/app/staticfiles'  # 生产环境由 Nginx 处理
+
+
+
+DEBUG = True  # 确保为True
+
+# 开发模式不需要STATIC_ROOT
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [
-    BASE_DIR / "static/",  # 确保这里指向了正确的文件夹
-]
+STATICFILES_DIRS = [BASE_DIR / "consultation/static"]  # 源码静态文件目录
+STATIC_ROOT = '/app/staticfiles'
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles') 
+
+
 LOGIN_URL = '/consultation/login/'  # 这里要改成你的实际登录路径
-
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 

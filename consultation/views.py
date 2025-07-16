@@ -3,7 +3,6 @@ from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
 from .models import Question, Answer
-from .forms import QuestionForm, AnswerForm
 from django.contrib.auth.models import User 
 import random
 from django.http import JsonResponse
@@ -26,6 +25,7 @@ def register(request):
 
     return render(request, 'consultation/register.html', {'form': form})
 
+
 def user_login(request):
     if request.method == 'POST':
         username = request.POST['username']
@@ -34,28 +34,27 @@ def user_login(request):
 
         if user is not None:
             login(request, user)
-            return redirect('dashboard')
+            # 根据是否是超级管理员决定跳转
+            if user.is_superuser:
+                return redirect("/consultation/upload_used_car/") # 管理员跳到上传页面
+            else:
+                return redirect("/consultation/dashboard/")        # 普通用户跳到 dashboard
         else:
-            # 检查用户名是否存在
             try:
                 User.objects.get(username=username)
-                # 如果用户名存在但密码错误
                 return render(request, 'consultation/login.html', {'error': '密码错误，请重新输入！'})
             except User.DoesNotExist:
-                # 用户名不存在，显示提示让用户去注册
                 return render(request, 'consultation/login.html', {'error': '抱歉，您还没有注册。请点击“立即注册”进行注册！'})
 
     return render(request, 'consultation/login.html')
+
+
 
 # 用户登出视图
 def user_logout(request):
     logout(request)
     return redirect('register')
 
-
-
-
-    
 @login_required
 def dashboard(request):
     return render(request, 'consultation/dashboard.html')

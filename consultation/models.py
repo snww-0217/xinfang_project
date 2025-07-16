@@ -28,3 +28,20 @@ class ImageUpload(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE, verbose_name="上传者")
     def __str__(self):
         return f"Image uploaded at {self.uploaded_at}"
+
+
+
+
+class UsedCar(models.Model):
+    brand = models.CharField(max_length=100)  # 品牌
+    model = models.CharField(max_length=100)  # 车型
+    production_year = models.PositiveIntegerField()  # 生产年份
+    insurance_status = models.CharField(max_length=100)  # 保险情况
+    usage_years = models.PositiveIntegerField()  # 年限情况
+    major_accident = models.BooleanField()  # 是否发生过重大事故
+    image = models.ImageField(upload_to='used_cars/')  # 车的图片
+
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return f"{self.brand} - {self.model} ({self.production_year})"
